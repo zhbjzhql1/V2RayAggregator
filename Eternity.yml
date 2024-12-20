@@ -17,533 +17,7 @@ dns:
   - https://dns.google/dns-query
   - tls://dns.google:853
 proxies:
-- name: 🇺🇸US-207.246.101.50-0370 | 160.317MB
-  server: 207.246.101.50
-  port: 1633
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: o_A7inN1yqeWtOTL
-- name: 🇺🇸US-144.202.112.106-1349 | 128.253MB
-  server: 144.202.112.106
-  port: 3913
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: 76dze09gQEvqS_jOuo
-- name: 🇺🇸US-173.244.56.6-5412 | 123.465MB
-  server: 173.244.56.6
-  port: 443
-  type: ss
-  cipher: aes-128-gcm
-  password: shadowsocks
-- name: RELAY-104.16.60.8-0844 | 120.133MB
-  server: 104.16.60.8
-  port: 80
-  type: vmess
-  uuid: 6c168fcc-2231-4f3b-8c1e-f6391692df4a
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: range-shape-b3fuegu.bananok182.workers.dev
-- name: 🇺🇸US-23.150.248.54-0384 | 119.885MB
-  server: jobscareerforlawyers.com
-  port: 443
-  type: trojan
-  password: f0eb8c92ce8946aaba856569cff1a16b
-  skip-cert-verify: false
-- name: 🇺🇸US-23.150.248.50-0381 | 108.075MB
-  server: jobscareerfortoday.com
-  port: 443
-  type: trojan
-  password: cb1f26aa437d4bfa9b841d28503ce8cc
-  skip-cert-verify: false
-- name: 🇺🇸US-156.146.38.168-0397 | 103.393MB
-  server: 156.146.38.168
-  port: 443
-  type: ss
-  cipher: aes-128-gcm
-  password: shadowsocks
-- name: 🇺🇸US-156.146.38.169-0490 | 98.384MB
-  server: 156.146.38.169
-  port: 443
-  type: ss
-  cipher: aes-128-gcm
-  password: shadowsocks
-- name: 🇺🇸US-156.146.38.167-0379 | 81.57MB
-  server: 156.146.38.167
-  port: 443
-  type: ss
-  cipher: aes-128-gcm
-  password: shadowsocks
-- name: 🇺🇸US-23.251.121.242-5414 | 80.521MB
-  server: 23.251.121.242
-  port: 8080
-  type: ss
-  cipher: rc4-md5
-  password: 14fFPrbezE3HDZzsMOr6
-- name: 🇺🇸US-154.3.8.151-6071 | 80.409MB
-  server: 154.3.8.151
-  port: 30067
-  type: ss
-  cipher: aes-256-gcm
-  password: iUB0923RBA
-- name: 🇺🇸US-156.146.38.170-0377 | 77.788MB
-  server: 156.146.38.170
-  port: 443
-  type: ss
-  cipher: aes-128-gcm
-  password: shadowsocks
-- name: RELAY-104.16.61.8-0843 | 76.604MB
-  server: 104.16.61.8
-  port: 8880
-  type: vmess
-  uuid: 950db6aa-4926-4616-816e-ec0312dcb87b
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: yaghoob55freenodes.repaco69437403.workers.dev
-- name: 🇺🇸US-23.150.248.107-0383 | 71.164MB
-  server: jobscareertoday.com
-  port: 443
-  type: trojan
-  password: dba20dcb635e430fa4d3bfc303a149d2
-  skip-cert-verify: false
-- name: RELAY-104.18.25.92-8869 | 70.946MB
-  server: lol.ps
-  port: 2052
-  type: vmess
-  uuid: f584de15-2034-4170-a723-f48c2bae5e0f
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: mysan2.jaquay22.workers.dev
-- name: 🇺🇸US-38.14.107.228-8656 | 70.881MB
-  server: 38.14.107.228
-  port: 38003
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  alterId: 64
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: www.23179753.xyz
-- name: 🇺🇸US-38.14.107.225-8706 | 70.859MB
-  server: 38.14.107.225
-  port: 38003
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  alterId: 64
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: www.23179753.xyz
-- name: 🇺🇸US-23.150.248.107-0380 | 70.729MB
-  server: 23.150.248.107
-  port: 443
-  type: trojan
-  password: dba20dcb635e430fa4d3bfc303a149d2
-  sni: jobscareertoday.com
-  skip-cert-verify: false
-- name: 🇺🇸US-38.14.107.233-8694 | 70.643MB
-  server: 38.14.107.233
-  port: 38003
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  alterId: 64
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: www.23179753.xyz
-- name: 🇺🇸US-184.170.241.194-0374 | 65.71MB
-  server: 184.170.241.194
-  port: 443
-  type: ss
-  cipher: aes-128-cfb
-  password: shadowsocks
-- name: 🇺🇸US-38.14.107.226-5977 | 62.063MB
-  server: 38.14.107.226
-  port: 38003
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  alterId: 64
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-- name: 🇺🇸US-107.155.57.51-5409 | 57.358MB
-  server: 107.155.57.51
-  port: 8080
-  type: ss
-  cipher: rc4-md5
-  password: 14fFPrbezE3HDZzsMOr6
-- name: RELAY-104.21.83.108-8739 | 53.291MB
-  server: 104.21.83.108
-  port: 443
-  type: vmess
-  uuid: 6c168fcc-2231-4f3b-8c1e-f6391692df4a
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  servername: RELAY-104.21.83.108-8739 | 53.291MB
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: hms02.fxiaomi.sbs
-- name: RELAY-195.85.59.22-8785 | 50.249MB
-  server: 195.85.59.22
-  port: 443
-  type: vmess
-  uuid: f584de15-2034-4170-a723-f48c2bae5e0f
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  servername: RELAY-195.85.59.22-8785 | 50.249MB
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: 8shhebsj78wjisnbhsjvess-pond-6cc6.cerog91216.workers.dev
-- name: RELAY-104.21.83.115-8771 | 45.445MB
-  server: 104.21.83.115
-  port: 443
-  type: vmess
-  uuid: 6c168fcc-2231-4f3b-8c1e-f6391692df4a
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  servername: RELAY-104.21.83.115-8771 | 45.445MB
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: hms02.fxiaomi.sbs
-- name: RELAY-104.21.1.32-5974 | 43.531MB
-  server: 3.clarity168.com
-  port: 443
-  type: vmess
-  uuid: 48f837fa-12d0-498d-b5f6-94f9979736a4
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: 3.clarity168.com
-- name: 🇺🇸US-212.102.47.131-0371 | 41.546MB
-  server: 212.102.47.131
-  port: 443
-  type: ss
-  cipher: aes-128-gcm
-  password: shadowsocks
-- name: 🇺🇸US-79.110.53.169-0388 | 41.546MB
-  server: 79.110.53.169
-  port: 8080
-  type: ss
-  cipher: rc4-md5
-  password: 14fFPrbezE3HDZzsMOr6
-- name: 🇺🇸US-18.237.72.225-0859 | 39.592MB
-  server: 18.237.72.225
-  port: 443
-  type: ss
-  cipher: aes-256-cfb
-  password: amazonskr05
-- name: 🇺🇸US-52.41.180.11-5329 | 39.377MB
-  server: 52.41.180.11
-  port: 443
-  type: ss
-  cipher: aes-256-cfb
-  password: amazonskr05
-- name: 🇺🇸US-54.218.229.170-0376 | 39.35MB
-  server: 54.218.229.170
-  port: 443
-  type: ss
-  cipher: aes-256-cfb
-  password: amazonskr05
-- name: RELAY-173.245.58.5-8766 | 38.563MB
-  server: 173.245.58.5
-  port: 443
-  type: vmess
-  uuid: 76221bfb-e92f-4e80-81c5-6fe48f50ac0b
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  servername: RELAY-173.245.58.5-8766 | 38.563MB
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: worker-bitter-math-2af8.waxoha3621.workers.dev
-- name: 🇨🇦CA-149.22.95.183-0474 | 38.429MB
-  server: 149.22.95.183
-  port: 443
-  type: ss
-  cipher: aes-128-gcm
-  password: shadowsocks
-- name: 🇺🇸US-34.215.192.217-0724 | 38.359MB
-  server: 34.215.192.217
-  port: 443
-  type: ss
-  cipher: aes-256-cfb
-  password: amazonskr05
-- name: 🇺🇸US-212.102.47.130-0372 | 38.044MB
-  server: 212.102.47.130
-  port: 443
-  type: ss
-  cipher: aes-128-gcm
-  password: shadowsocks
-- name: 🇺🇸US-34.222.132.123-0734 | 37.857MB
-  server: 34.222.132.123
-  port: 443
-  type: ss
-  cipher: aes-256-cfb
-  password: amazonskr05
-- name: 🇺🇸US-137.175.113.192-5326 | 37.513MB
-  server: 137.175.113.192
-  port: 8388
-  type: ss
-  cipher: chacha20-ietf
-  password: asd123456
-- name: RELAY-104.18.12.15-8737 | 37.489MB
-  server: workers.dev
-  port: 443
-  type: vmess
-  uuid: 76221bfb-e92f-4e80-81c5-6fe48f50ac0b
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  servername: RELAY-104.18.12.15-8737 | 37.489MB
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: fragrant-heart-c94b.fticrh.workers.dev
-- name: 🇺🇸US-107.155.57.11-0399 | 36.728MB
-  server: 107.155.57.11
-  port: 8080
-  type: ss
-  cipher: rc4-md5
-  password: 14fFPrbezE3HDZzsMOr6
-- name: 🇺🇸US-194.5.215.59-0389 | 34.816MB
-  server: 194.5.215.59
-  port: 8080
-  type: ss
-  cipher: rc4-md5
-  password: 14fFPrbezE3HDZzsMOr6
-- name: 🇺🇸US-152.70.115.209-0385 | 34.245MB
-  server: h.522226.xyz
-  port: 45800
-  type: trojan
-  password: xjN4xcuPGg55
-  skip-cert-verify: false
-- name: 🇺🇸US-54.161.163.112-1358 | 34.235MB
-  server: 54.161.163.112
-  port: 22222
-  type: trojan
-  password: telegram-id-directvpn
-  sni: trojan.burgerip.co.uk
-  skip-cert-verify: false
-- name: 🇺🇸US-69.50.93.90-8664 | 33.511MB
-  server: 69.50.93.90
-  port: 443
-  type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-- name: 🇺🇸US-23.154.136.2-8686 | 33.492MB
-  server: 23.154.136.2
-  port: 443
-  type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-- name: 🇺🇸US-142.202.48.220-0393 | 33.443MB
-  server: 142.202.48.220
-  port: 443
-  type: trojan
-  password: f0eb8c92ce8946aaba856569cff1a16b
-  sni: sherasheba.com
-  skip-cert-verify: false
-- name: 🇺🇸US-38.91.106.227-8677 | 33.434MB
-  server: 38.91.106.227
-  port: 443
-  type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: wrmelmwxlf.gktevlrqznwqqozy.fabpfs66gizmnojhcvqxwl.kytrcfzqla87gvgvs6c7kjnrubuh.cc
-- name: 🇺🇸US-45.55.2.232-0386 | 33.434MB
-  server: 45.55.2.232
-  port: 14293
-  type: ss
-  cipher: aes-256-cfb
-  password: 2170f8
-- name: 🇺🇸US-142.202.48.220-0395 | 33.071MB
-  server: sherasheba.com
-  port: 443
-  type: trojan
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-  skip-cert-verify: false
-- name: 🇨🇦CA-134.195.196.138-0391 | 33.052MB
-  server: avianrecruit.com
-  port: 443
-  type: trojan
-  password: b4e8771997c94732acbc9ec4d19c2589
-  skip-cert-verify: false
-- name: 🇨🇦CA-23.162.200.94-8651 | 32.246MB
-  server: 23.162.200.94
-  port: 443
-  type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: wrmelmwxlf.gktevlrqznwqqozy.fabpfs66gizmnojhcvqxwl.kytrcfzqla87gvgvs6c7kjnrubuh.cc
-- name: 🇺🇸US-37.19.198.243-0392 | 32.183MB
-  server: 37.19.198.243
-  port: 443
-  type: ss
-  cipher: aes-128-gcm
-  password: shadowsocks
-- name: 🇺🇸US-37.19.198.244-0404 | 32.001MB
-  server: 37.19.198.244
-  port: 443
-  type: ss
-  cipher: aes-128-gcm
-  password: shadowsocks
-- name: 🇨🇦CA-23.162.200.227-8683 | 31.935MB
-  server: 23.162.200.227
-  port: 443
-  type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-- name: 🇺🇸US-38.99.82.203-8669 | 31.895MB
-  server: 38.99.82.203
-  port: 443
-  type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: 38.99.82.203
-- name: 🇺🇸US-37.19.198.160-0401 | 31.891MB
-  server: 37.19.198.160
-  port: 443
-  type: ss
-  cipher: aes-128-gcm
-  password: shadowsocks
-- name: 🇺🇸US-38.99.82.203-5993 | 31.829MB
-  server: 38.99.82.203
-  port: 443
-  type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-- name: 🇺🇸US-205.134.180.151-0505 | 31.807MB
-  server: 205.134.180.151
-  port: 443
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: 5cp9Z3iWnJZ2
-- name: 🇺🇸US-205.134.180.150-0305 | 31.79MB
-  server: 205.134.180.150
-  port: 443
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: 5cp9Z3iWnJZ2
-- name: 🇺🇸US-205.134.180.139-0465 | 31.703MB
-  server: 205.134.180.139
-  port: 443
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: lWaGPVFjmnag
-- name: 🇨🇦CA-134.195.198.147-8657 | 31.668MB
-  server: 134.195.198.147
-  port: 443
-  type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: inna.cfd
-- name: 🇨🇦CA-172.105.13.246-8758 | 31.427MB
+- name: 🇨🇦CA-172.105.13.246-8758 | 162.113MB
   server: denc36.xtooltech.cfd
   port: 443
   type: vmess
@@ -557,101 +31,14 @@ proxies:
     path: /
     headers:
       Host: adenc36v.xtooltech.cfd
-- name: 🇺🇸US-205.134.180.137-0477 | 31.364MB
-  server: 205.134.180.137
-  port: 443
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: g13S7doXar0A
-- name: 🇺🇸US-107.167.30.126-8663 | 31.094MB
-  server: 107.167.30.126
-  port: 30000
-  type: vmess
-  uuid: 57f93e92-ebb9-4f16-9bdc-8225d2010995
-  alterId: 64
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  servername: 🇺🇸US-107.167.30.126-8663 | 31.094MB
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: www.83645422.xyz
-- name: 🇺🇸US-64.74.163.130-5897 | 31.056MB
-  server: 64.74.163.130
-  port: 990
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: f8f7aCzcPKbsF8p3
-- name: 🇺🇸US-38.75.136.49-0512 | 30.804MB
-  server: 38.75.136.49
-  port: 7306
-  type: ss
-  cipher: aes-256-gcm
-  password: FoOiGlkAA9yPEGP
-- name: 🇺🇸US-107.175.96.74-5454 | 30.752MB
-  server: 107.175.96.74
-  port: 16899
-  type: ss
-  cipher: aes-128-gcm
-  password: Yc2CtrIz8L
-- name: 🇺🇸US-92.118.112.111-0541 | 30.698MB
-  server: 92.118.112.111
-  port: 18622
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: gmYDzSG6K35s8b19oY4fGz
-- name: 🇺🇸US-194.116.173.21-5449 | 30.682MB
-  server: 194.116.173.21
-  port: 9038
-  type: ss
-  cipher: aes-256-cfb
-  password: gYCYXfkUQEs2TaJQ
-- name: 🇯🇵JP-149.22.87.240-0398 | 30.536MB
-  server: 149.22.87.240
-  port: 443
-  type: ss
-  cipher: aes-128-gcm
-  password: shadowsocks
-- name: 🇯🇵JP-149.22.87.241-0402 | 30.332MB
-  server: 149.22.87.241
-  port: 443
-  type: ss
-  cipher: aes-128-gcm
-  password: shadowsocks
-- name: 🇺🇸US-38.75.136.49-0503 | 30.052MB
-  server: 38.75.136.49
-  port: 7002
-  type: ss
-  cipher: aes-256-gcm
-  password: RexnBgU7EV5ADxG
-- name: 🇬🇧GB-172.99.190.180-6297 | 29.637MB
-  server: bangladeshipatri.com
+- name: 🇺🇸US-142.202.48.220-0395 | 157.054MB
+  server: sherasheba.com
   port: 443
   type: trojan
-  password: 4732adfa16c6450bbef87264e41332db
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
   skip-cert-verify: false
-- name: 🇬🇧GB-89.185.84.185-0436 | 29.351MB
-  server: 89.185.84.185
-  port: 12575
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: HaZ5Ek7pur79uPPFs55USt
-- name: 🇬🇧GB-89.185.84.185-5872 | 29.2MB
-  server: 89.185.84.185
-  port: 52338
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: aXuV8k5a4NFmkphgr5NTlL
-- name: 🇳🇱NL-109.201.152.181-0413 | 28.904MB
-  server: 109.201.152.181
-  port: 443
-  type: ss
-  cipher: aes-128-cfb
-  password: shadowsocks
-- name: 🇬🇧GB-149.7.16.73-6000 | 28.75MB
-  server: 149.7.16.73
+- name: 🇺🇸US-38.99.82.203-8669 | 142.635MB
+  server: 38.99.82.203
   port: 443
   type: vmess
   uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
@@ -662,25 +49,201 @@ proxies:
   network: ws
   ws-opts:
     path: /
-- name: 🇬🇧GB-172.99.190.50-6001 | 28.613MB
-  server: 172.99.190.50
+    headers:
+      Host: 38.99.82.203
+- name: 🇺🇸US-69.50.93.90-8664 | 141.243MB
+  server: 69.50.93.90
   port: 443
   type: vmess
   uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  alterId: 1
+  alterId: 0
   cipher: auto
   tls: true
   skip-cert-verify: false
   network: ws
   ws-opts:
     path: /
-- name: 🇫🇷FR-51.15.27.48-0417 | 28.401MB
-  server: 51.15.27.48
-  port: 989
+- name: 🇺🇸US-37.19.198.244-0404 | 136.335MB
+  server: 37.19.198.244
+  port: 443
   type: ss
-  cipher: aes-256-cfb
-  password: f8f7aCzcPKbsF8p3
-- name: 🇬🇧GB-149.7.16.174-0875 | 28.217MB
+  cipher: aes-128-gcm
+  password: shadowsocks
+- name: 🇨🇦CA-23.162.200.94-8651 | 134.984MB
+  server: 23.162.200.94
+  port: 443
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: wrmelmwxlf.gktevlrqznwqqozy.fabpfs66gizmnojhcvqxwl.kytrcfzqla87gvgvs6c7kjnrubuh.cc
+- name: 🇺🇸US-23.150.248.107-0380 | 131.011MB
+  server: 23.150.248.107
+  port: 443
+  type: trojan
+  password: dba20dcb635e430fa4d3bfc303a149d2
+  sni: jobscareertoday.com
+  skip-cert-verify: false
+- name: 🇨🇦CA-134.195.196.138-0391 | 125.405MB
+  server: avianrecruit.com
+  port: 443
+  type: trojan
+  password: b4e8771997c94732acbc9ec4d19c2589
+  skip-cert-verify: false
+- name: 🇺🇸US-142.202.48.220-0393 | 114.773MB
+  server: 142.202.48.220
+  port: 443
+  type: trojan
+  password: f0eb8c92ce8946aaba856569cff1a16b
+  sni: sherasheba.com
+  skip-cert-verify: false
+- name: 🇺🇸US-23.154.136.2-8686 | 103.025MB
+  server: 23.154.136.2
+  port: 443
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+- name: 🇺🇸US-23.150.248.54-0384 | 102.387MB
+  server: jobscareerforlawyers.com
+  port: 443
+  type: trojan
+  password: f0eb8c92ce8946aaba856569cff1a16b
+  skip-cert-verify: false
+- name: 🇺🇸US-194.5.215.59-0389 | 99.483MB
+  server: 194.5.215.59
+  port: 8080
+  type: ss
+  cipher: rc4-md5
+  password: 14fFPrbezE3HDZzsMOr6
+- name: 🇺🇸US-38.91.106.227-8677 | 97.76MB
+  server: 38.91.106.227
+  port: 443
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: wrmelmwxlf.gktevlrqznwqqozy.fabpfs66gizmnojhcvqxwl.kytrcfzqla87gvgvs6c7kjnrubuh.cc
+- name: 🇺🇸US-156.146.38.169-0490 | 97.719MB
+  server: 156.146.38.169
+  port: 443
+  type: ss
+  cipher: aes-128-gcm
+  password: shadowsocks
+- name: 🇺🇸US-23.150.248.50-0381 | 96.578MB
+  server: jobscareerfortoday.com
+  port: 443
+  type: trojan
+  password: cb1f26aa437d4bfa9b841d28503ce8cc
+  skip-cert-verify: false
+- name: 🇺🇸US-23.150.248.107-0383 | 89.797MB
+  server: jobscareertoday.com
+  port: 443
+  type: trojan
+  password: dba20dcb635e430fa4d3bfc303a149d2
+  skip-cert-verify: false
+- name: 🇨🇦CA-149.22.95.183-0474 | 87.127MB
+  server: 149.22.95.183
+  port: 443
+  type: ss
+  cipher: aes-128-gcm
+  password: shadowsocks
+- name: 🇺🇸US-38.14.107.228-8656 | 86.703MB
+  server: 38.14.107.228
+  port: 38003
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  alterId: 64
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: www.23179753.xyz
+- name: 🇺🇸US-38.14.107.225-8706 | 83.936MB
+  server: 38.14.107.225
+  port: 38003
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  alterId: 64
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: www.23179753.xyz
+- name: 🇺🇸US-205.134.180.139-0465 | 79.744MB
+  server: 205.134.180.139
+  port: 443
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: lWaGPVFjmnag
+- name: 🇺🇸US-38.14.107.233-8694 | 70.321MB
+  server: 38.14.107.233
+  port: 38003
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  alterId: 64
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: www.23179753.xyz
+- name: 🇬🇧GB-149.7.16.174-5372 | 68.369MB
+  server: 149.7.16.174
+  port: 443
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+- name: 🇺🇸US-38.99.82.203-5993 | 68.308MB
+  server: 38.99.82.203
+  port: 443
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+- name: 🇬🇧GB-172.99.190.180-6297 | 68.007MB
+  server: bangladeshipatri.com
+  port: 443
+  type: trojan
+  password: 4732adfa16c6450bbef87264e41332db
+  skip-cert-verify: false
+- name: 🇬🇧GB-149.7.16.174-0875 | 66.771MB
   server: 149.7.16.174
   port: 443
   type: vmess
@@ -694,19 +257,31 @@ proxies:
     path: /
     headers:
       Host: meroiy.icu
-- name: 🇬🇧GB-149.7.16.174-5372 | 27.392MB
-  server: 149.7.16.174
+- name: 🇳🇱NL-149.34.244.68-0427 | 61.291MB
+  server: 149.34.244.68
   port: 443
+  type: ss
+  cipher: aes-128-gcm
+  password: shadowsocks
+- name: 🇺🇸US-38.14.107.226-5977 | 54.831MB
+  server: 38.14.107.226
+  port: 38003
   type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  alterId: 0
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  alterId: 64
   cipher: auto
   tls: true
   skip-cert-verify: false
   network: ws
   ws-opts:
     path: /
-- name: 🇬🇧GB-149.7.16.188-5995 | 27.312MB
+- name: 🇬🇧GB-212.102.53.195-0410 | 53.513MB
+  server: 212.102.53.195
+  port: 443
+  type: ss
+  cipher: aes-128-gcm
+  password: shadowsocks
+- name: 🇬🇧GB-149.7.16.188-5995 | 52.127MB
   server: 149.7.16.188
   port: 443
   type: vmess
@@ -718,492 +293,19 @@ proxies:
   network: ws
   ws-opts:
     path: /
-- name: 🇬🇧GB-172.99.190.206-5992 | 27.267MB
-  server: 172.99.190.206
-  port: 443
-  type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-- name: 🇳🇱NL-149.34.244.68-0427 | 27.199MB
-  server: 149.34.244.68
-  port: 443
-  type: ss
-  cipher: aes-128-gcm
-  password: shadowsocks
-- name: 🇬🇧GB-149.7.16.194-5990 | 27.164MB
-  server: 149.7.16.194
-  port: 443
-  type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  alterId: 1
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-- name: 🇫🇷FR-195.154.185.174-0451 | 27.152MB
-  server: 195.154.185.174
-  port: 989
+- name: 🇺🇸US-194.116.173.21-5449 | 51.94MB
+  server: 194.116.173.21
+  port: 9038
   type: ss
   cipher: aes-256-cfb
-  password: f8f7aCzcPKbsF8p3
-- name: 🇫🇷FR-51.159.111.208-0447 | 27.028MB
-  server: 51.159.111.208
-  port: 989
-  type: ss
-  cipher: aes-256-cfb
-  password: f8f7aCzcPKbsF8p3
-- name: 🇺🇸US-38.110.1.111-0485 | 26.927MB
-  server: 38.110.1.111
-  port: 8000
-  type: ss
-  cipher: aes-256-gcm
-  password: KixLvKzwjekG00rm
-- name: 🇫🇷FR-195.154.169.198-0422 | 25.857MB
-  server: 195.154.169.198
-  port: 989
-  type: ss
-  cipher: aes-256-cfb
-  password: f8f7aCzcPKbsF8p3
-- name: 🇬🇧GB-212.102.53.195-0410 | 25.722MB
-  server: 212.102.53.195
-  port: 443
-  type: ss
-  cipher: aes-128-gcm
-  password: shadowsocks
-- name: 🇬🇧GB-212.102.53.197-0414 | 24.823MB
-  server: uk-dc1.yangon.club
-  port: 443
-  type: ss
-  cipher: aes-128-gcm
-  password: shadowsocks
-- name: 🇬🇧GB-212.102.53.80-0425 | 24.473MB
-  server: 212.102.53.80
-  port: 443
-  type: ss
-  cipher: aes-128-gcm
-  password: shadowsocks
-- name: 🇬🇧GB-77.72.5.150-0482 | 24.389MB
-  server: 77.72.5.150
-  port: 989
-  type: ss
-  cipher: aes-256-cfb
-  password: f8f7aCzcPKbsF8p3
-- name: 🇬🇧GB-212.102.53.79-0430 | 24.349MB
-  server: 212.102.53.79
-  port: 443
-  type: ss
-  cipher: aes-128-gcm
-  password: shadowsocks
-- name: 🇬🇧GB-212.102.53.78-0407 | 24.327MB
-  server: 212.102.53.78
-  port: 443
-  type: ss
-  cipher: aes-128-gcm
-  password: shadowsocks
-- name: 🇫🇷FR-193.160.130.201-8674 | 23.092MB
-  server: irhms03.dongfeng.cfd
-  port: 443
-  type: vmess
-  uuid: fa5b55cd-cafc-4de0-a4c8-722e02a9f58e
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  servername: 🇫🇷FR-193.160.130.201-8674 | 23.092MB
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: hms03.dongfeng.cfd
-- name: 🇬🇧GB-212.102.53.193-0415 | 22.937MB
-  server: 212.102.53.193
-  port: 443
-  type: ss
-  cipher: aes-128-gcm
-  password: shadowsocks
-- name: 🇬🇧GB-212.102.53.81-0420 | 19.465MB
-  server: 212.102.53.81
-  port: 443
-  type: ss
-  cipher: aes-128-gcm
-  password: shadowsocks
-- name: 🇫🇷FR-51.158.244.38-0454 | 17.398MB
-  server: 51.158.244.38
+  password: gYCYXfkUQEs2TaJQ
+- name: 🇺🇸US-107.155.57.11-0399 | 51.719MB
+  server: 107.155.57.11
   port: 8080
   type: ss
   cipher: rc4-md5
   password: 14fFPrbezE3HDZzsMOr6
-- name: 🇳🇱NL-149.34.244.77-0424 | 16.808MB
-  server: 149.34.244.77
-  port: 443
-  type: ss
-  cipher: aes-128-gcm
-  password: shadowsocks
-- name: 🇬🇧GB-212.102.53.197-0411 | 16.746MB
-  server: 212.102.53.197
-  port: 443
-  type: ss
-  cipher: aes-128-gcm
-  password: shadowsocks
-- name: 🇬🇧GB-212.102.53.196-0408 | 16.35MB
-  server: 212.102.53.196
-  port: 443
-  type: ss
-  cipher: aes-128-gcm
-  password: shadowsocks
-- name: 🇳🇱NL-5.35.47.122-5873 | 15.91MB
-  server: 5.35.47.122
-  port: 45635
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: CLphyEMQT8nbG8EImX0A2D
-- name: 🇬🇧GB-212.102.53.194-0186 | 15.598MB
-  server: 212.102.53.194
-  port: 443
-  type: ss
-  cipher: aes-128-gcm
-  password: shadowsocks
-- name: 🇸🇬SG-206.238.236.36-8795 | 15.42MB
-  server: 206.238.236.36
-  port: 2052
-  type: vmess
-  uuid: f584de15-2034-4170-a723-f48c2bae5e0f
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  servername: 🇸🇬SG-206.238.236.36-8795 | 15.42MB
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: mysan2.jaquay22.workers.dev
-- name: 🇬🇧GB-212.102.53.198-0412 | 14.633MB
-  server: 212.102.53.198
-  port: 443
-  type: ss
-  cipher: aes-128-gcm
-  password: shadowsocks
-- name: 🇩🇪DE-81.19.141.45-0462 | 13.513MB
-  server: 81.19.141.45
-  port: 52873
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: I1onhFIawC9IpNB2ZE73CK
-- name: 🇳🇱NL-149.34.244.82-0418 | 13.03MB
-  server: 149.34.244.82
-  port: 443
-  type: ss
-  cipher: aes-128-gcm
-  password: shadowsocks
-- name: LT-45.87.175.157-5837 | 13.012MB
-  server: 45.87.175.157
-  port: 8080
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: 4a2rfixophdjffa8KVA4Aa
-- name: LT-45.87.175.171-5833 | 11.732MB
-  server: 45.87.175.171
-  port: 8080
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: 4a2rfixophdjffa8KVA4Aa
-- name: 🇰🇷KR-43.203.122.162-0873 | 11.708MB
-  server: 43.203.122.162
-  port: 443
-  type: ss
-  cipher: aes-256-cfb
-  password: amazonskr05
-- name: LT-45.87.175.199-0453 | 11.482MB
-  server: 45.87.175.199
-  port: 8080
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: 4a2rfixophdjffa8KVA4Aa
-- name: RELAY-104.17.197.31-8753 | 11.303MB
-  server: 104.17.197.31
-  port: 443
-  type: vmess
-  uuid: 441da342-ce90-441e-bff9-d2ceb55e68ca
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  servername: RELAY-104.17.197.31-8753 | 11.303MB
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: quiet-moon-132a.xetag42714.workers.dev
-- name: 🇩🇪DE-172.104.142.89-5979 | 11.301MB
-  server: hms26.xpengmotors.sbs
-  port: 443
-  type: vmess
-  uuid: fb0a2de6-bf06-4ff0-97ce-c21abcdc2d55
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  servername: 🇩🇪DE-172.104.142.89-5979 | 11.301MB
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: hms26.xpengmotors.sbs
-- name: 🇩🇪DE-130.61.77.41-5359 | 10.442MB
-  server: 130.61.77.41
-  port: 57754
-  type: ss
-  cipher: aes-128-gcm
-  password: 89b90001-4206-4871-a99d-1744d48f215b
-- name: 🇳🇱NL-150.241.68.171-5757 | 9.778MB
-  server: 150.241.68.171
-  port: 24064
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: LcEDAhRkNrjwB16SvN5d7fAmpswtGTAexB1qdzmeFrg=
-- name: 🇩🇪DE-130.61.156.132-5745 | 9.736MB
-  server: frankfurt03.zgjok.com
-  port: 443
-  type: vmess
-  uuid: 4f7c2243-a38a-4672-983b-f1378aee0a7f
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  servername: 🇩🇪DE-130.61.156.132-5745 | 9.736MB
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: frankfurt03.zgjok.com
-- name: 🇫🇷FR-193.160.130.245-8681 | 9.708MB
-  server: beyonddsz.cfd
-  port: 443
-  type: vmess
-  uuid: 9b456c2a-f2c1-45e1-87a9-b7628b04bb24
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: beyonddsz.cfd
-- name: 🇬🇧GB-169.150.210.233-0421 | 9.229MB
-  server: 169.150.210.233
-  port: 8080
-  type: ss
-  cipher: rc4-md5
-  password: 14fFPrbezE3HDZzsMOr6
-- name: 🇫🇷FR-146.19.168.161-8717 | 8.282MB
-  server: 146.19.168.161
-  port: 443
-  type: vmess
-  uuid: 3f638f34-8dba-4186-bc43-2716a7ddd4be
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  servername: 🇫🇷FR-146.19.168.161-8717 | 8.282MB
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: az05.beyondy.cfd
-- name: 🇫🇷FR-45.145.165.113-8712 | 8.06MB
-  server: hms19.best-tizi.top
-  port: 443
-  type: vmess
-  uuid: 62aa5f80-0328-4004-a375-7f5a59df4022
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  servername: 🇫🇷FR-45.145.165.113-8712 | 8.06MB
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: hms19.best-tizi.top
-- name: 🇰🇷KR-13.125.90.251-6264 | 7.132MB
-  server: 13.125.90.251
-  port: 443
-  type: ss
-  cipher: aes-256-cfb
-  password: amazonskr05
-- name: 🇬🇧GB-141.98.101.182-6395 | 7.07MB
-  server: 141.98.101.182
-  port: 443
-  type: ss
-  cipher: aes-128-gcm
-  password: shadowsocks
-- name: 🇩🇪DE-193.108.119.230-5360 | 6.237MB
-  server: 193.108.119.230
-  port: 8080
-  type: ss
-  cipher: rc4-md5
-  password: 14fFPrbezE3HDZzsMOr6
-- name: 🇫🇷FR-45.145.167.103-5759 | 6.187MB
-  server: indiavideo.sbs
-  port: 443
-  type: vmess
-  uuid: 425c5e6e-30a0-4984-8a13-ee6f72053162
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  servername: 🇫🇷FR-45.145.167.103-5759 | 6.187MB
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: indiavideo.sbs
-- name: 🇬🇧GB-141.98.101.180-6322 | 6.153MB
-  server: 141.98.101.180
-  port: 443
-  type: ss
-  cipher: aes-128-gcm
-  password: shadowsocks
-- name: CZ-195.181.160.6-0450 | 5.803MB
-  server: 195.181.160.6
-  port: 990
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: f8f7aCzcPKbsF8p3
-- name: SE-51.21.73.169-1356 | 5.694MB
-  server: 51.21.73.169
-  port: 22222
-  type: trojan
-  password: telegram-id-privatevpns
-  sni: trojan.burgerip.co.uk
-  skip-cert-verify: false
-- name: RELAY-104.18.24.92-9043 | 5.593MB
-  server: 104.18.24.92
-  port: 2052
-  type: vmess
-  uuid: f584de15-2034-4170-a723-f48c2bae5e0f
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: mysan2.jaquay22.workers.dev
-- name: 🇫🇷FR-146.19.168.161-5760 | 5.4MB
-  server: az05.beyondy.cfd
-  port: 443
-  type: vmess
-  uuid: 3f638f34-8dba-4186-bc43-2716a7ddd4be
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  servername: 🇫🇷FR-146.19.168.161-5760 | 5.4MB
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: az05.beyondy.cfd
-- name: LT-45.87.175.164-5382 | 5.343MB
-  server: 45.87.175.164
-  port: 8080
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: cvII85TrW6n0OGyfpHVS1u
-- name: 🇺🇸US-137.175.113.215-0426 | 5.243MB
-  server: 137.175.113.215
-  port: 8388
-  type: ss
-  cipher: chacha20-ietf
-  password: asd123456
-- name: NO-51.120.12.78-0432 | 5.169MB
-  server: 51.120.12.78
-  port: 34137
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: KrIV7QIoQmMps6L21IrbLv
-- name: 🇫🇷FR-193.160.130.245-8649 | 4.839MB
-  server: 193.160.130.245
-  port: 443
-  type: vmess
-  uuid: 9b456c2a-f2c1-45e1-87a9-b7628b04bb24
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: beyonddsz.cfd
-- name: RS-194.71.126.31-0457 | 4.69MB
-  server: 194.71.126.31
-  port: 989
-  type: ss
-  cipher: aes-256-cfb
-  password: f8f7aCzcPKbsF8p3
-- name: SE-46.246.98.155-5889 | 4.228MB
-  server: 46.246.98.155
-  port: 44013
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: UDcjYQ6Z6AIWxViZpqyOmO
-- name: NO-51.13.114.206-0435 | 3.73MB
-  server: 51.13.114.206
-  port: 19940
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: Bk6CwTEYasiCd9iqVOvOpZ
-- name: CH-156.146.62.162-0429 | 3.671MB
-  server: 156.146.62.162
-  port: 443
-  type: ss
-  cipher: aes-128-gcm
-  password: shadowsocks
-- name: CH-156.146.62.164-0433 | 3.613MB
-  server: 156.146.62.164
-  port: 443
-  type: ss
-  cipher: aes-128-gcm
-  password: shadowsocks
-- name: CH-156.146.62.163-0441 | 3.3MB
-  server: 156.146.62.163
-  port: 443
-  type: ss
-  cipher: aes-128-gcm
-  password: shadowsocks
-- name: CH-156.146.62.161-0434 | 3.144MB
-  server: 156.146.62.161
-  port: 443
-  type: ss
-  cipher: aes-128-gcm
-  password: shadowsocks
-- name: SE-13.48.251.198-1360 | 2.863MB
-  server: 13.48.251.198
-  port: 22222
-  type: trojan
-  password: telegram-id-privatevpns
-  sni: trojan.burgerip.co.uk
-  skip-cert-verify: false
-- name: 🇭🇰HK-103.17.99.54-6437 | 2.811MB
-  server: 103.17.99.54
-  port: 4001
-  type: ss
-  cipher: aes-128-gcm
-  password: 89b90001-4206-4871-a99d-1744d48f215b
-- name: 🇫🇷FR-51.77.20.137-8668 | 2.784MB
+- name: 🇫🇷FR-51.77.20.137-8668 | 47.869MB
   server: 51.77.20.137
   port: 443
   type: vmess
@@ -1217,25 +319,58 @@ proxies:
     path: /
     headers:
       Host: tilebani.com
-- name: 🇩🇪DE-57.129.24.141-5734 | 2.7MB
-  server: 57.129.24.141
+- name: LT-45.87.175.166-5835 | 45.17MB
+  server: 45.87.175.166
+  port: 8080
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: cvII85TrW6n0OGyfpHVS1u
+- name: 🇺🇸US-205.134.180.147-5618 | 43.919MB
+  server: 205.134.180.147
+  port: 443
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 9Bvkw5aupNy8
+- name: CH-156.146.62.162-0429 | 42.352MB
+  server: 156.146.62.162
+  port: 443
+  type: ss
+  cipher: aes-128-gcm
+  password: shadowsocks
+- name: 🇺🇸US-107.155.57.51-5409 | 41.405MB
+  server: 107.155.57.51
+  port: 8080
+  type: ss
+  cipher: rc4-md5
+  password: 14fFPrbezE3HDZzsMOr6
+- name: 🇫🇷FR-146.19.168.161-8717 | 39.626MB
+  server: 146.19.168.161
   port: 443
   type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  uuid: 3f638f34-8dba-4186-bc43-2716a7ddd4be
   alterId: 0
   cipher: auto
   tls: true
   skip-cert-verify: false
+  servername: 🇫🇷FR-146.19.168.161-8717 | 39.626MB
   network: ws
   ws-opts:
     path: /
-- name: RO-194.14.217.115-0472 | 2.649MB
-  server: 194.14.217.115
-  port: 989
+    headers:
+      Host: az05.beyondy.cfd
+- name: 🇬🇧GB-212.102.53.197-0414 | 39.018MB
+  server: uk-dc1.yangon.club
+  port: 443
   type: ss
-  cipher: aes-256-cfb
-  password: f8f7aCzcPKbsF8p3
-- name: 🇩🇪DE-57.129.24.125-5350 | 2.263MB
+  cipher: aes-128-gcm
+  password: shadowsocks
+- name: 🇳🇱NL-5.35.47.122-5873 | 38.295MB
+  server: 5.35.47.122
+  port: 45635
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: CLphyEMQT8nbG8EImX0A2D
+- name: 🇩🇪DE-57.129.24.125-5350 | 37.789MB
   server: 57.129.24.125
   port: 443
   type: vmess
@@ -1249,79 +384,323 @@ proxies:
     path: /
     headers:
       Host: wrmelmwxlf.gktevlrqznwqqozy.fabpfs66gizmnojhcvqxwl.kytrcfzqla87gvgvs6c7kjnrubuh.cc
-- name: SE-121.127.46.147-0437 | 2.069MB
+- name: 🇺🇸US-34.215.192.217-0724 | 37.404MB
+  server: 34.215.192.217
+  port: 443
+  type: ss
+  cipher: aes-256-cfb
+  password: amazonskr05
+- name: 🇬🇧GB-149.7.16.194-5990 | 37.23MB
+  server: 149.7.16.194
+  port: 443
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  alterId: 1
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+- name: 🇪🇸ES-194.87.45.189-5742 | 37.075MB
+  server: 194.87.45.189
+  port: 40076
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: ECjp87TIkUiJ5AhRZglZ9E
+- name: 🇺🇸US-207.246.101.50-0370 | 36.78MB
+  server: 207.246.101.50
+  port: 1633
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: o_A7inN1yqeWtOTL
+- name: 🇺🇸US-205.134.180.151-0505 | 36.364MB
+  server: 205.134.180.151
+  port: 443
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 5cp9Z3iWnJZ2
+- name: CH-156.146.62.163-0441 | 35.68MB
+  server: 156.146.62.163
+  port: 443
+  type: ss
+  cipher: aes-128-gcm
+  password: shadowsocks
+- name: 🇬🇧GB-212.102.53.79-0430 | 35.538MB
+  server: 212.102.53.79
+  port: 443
+  type: ss
+  cipher: aes-128-gcm
+  password: shadowsocks
+- name: NO-51.13.114.206-0435 | 35.424MB
+  server: 51.13.114.206
+  port: 19940
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: Bk6CwTEYasiCd9iqVOvOpZ
+- name: 🇺🇸US-37.19.198.243-0392 | 34.66MB
+  server: 37.19.198.243
+  port: 443
+  type: ss
+  cipher: aes-128-gcm
+  password: shadowsocks
+- name: 🇬🇧GB-212.102.53.196-0408 | 34.043MB
+  server: 212.102.53.196
+  port: 443
+  type: ss
+  cipher: aes-128-gcm
+  password: shadowsocks
+- name: 🇺🇸US-173.244.56.6-5412 | 33.993MB
+  server: 173.244.56.6
+  port: 443
+  type: ss
+  cipher: aes-128-gcm
+  password: shadowsocks
+- name: SE-121.127.46.147-0437 | 32.183MB
   server: 121.127.46.147
   port: 989
   type: ss
   cipher: aes-256-cfb
   password: f8f7aCzcPKbsF8p3
-- name: HU-91.219.237.102-0446 | 2.001MB
-  server: 91.219.237.102
-  port: 990
+- name: 🇺🇸US-205.134.180.137-0477 | 32.054MB
+  server: 205.134.180.137
+  port: 443
   type: ss
   cipher: chacha20-ietf-poly1305
+  password: g13S7doXar0A
+- name: 🇺🇸US-45.55.2.232-0386 | 31.449MB
+  server: 45.55.2.232
+  port: 14293
+  type: ss
+  cipher: aes-256-cfb
+  password: 2170f8
+- name: 🇫🇷FR-51.159.111.208-0447 | 28.948MB
+  server: 51.159.111.208
+  port: 989
+  type: ss
+  cipher: aes-256-cfb
   password: f8f7aCzcPKbsF8p3
-- name: 🇺🇸US-38.75.136.49-0481 | 1.991MB
-  server: 38.75.136.49
-  port: 6679
+- name: 🇺🇸US-184.170.241.194-0374 | 28.084MB
+  server: 184.170.241.194
+  port: 443
   type: ss
-  cipher: aes-256-gcm
-  password: TEzjfAYq2IjtuoS
-- name: 🇺🇸US-38.75.136.49-0487 | 1.973MB
-  server: 38.75.136.49
-  port: 2375
+  cipher: aes-128-cfb
+  password: shadowsocks
+- name: CH-156.146.62.164-0433 | 25.506MB
+  server: 156.146.62.164
+  port: 443
   type: ss
-  cipher: aes-256-gcm
-  password: faBAoD54k87UJG7
-- name: 🇵🇱PL-45.144.48.63-0438 | 1.966MB
-  server: 45.144.48.63
-  port: 57456
+  cipher: aes-128-gcm
+  password: shadowsocks
+- name: 🇺🇸US-152.70.115.209-0385 | 25.11MB
+  server: h.522226.xyz
+  port: 45800
+  type: trojan
+  password: xjN4xcuPGg55
+  skip-cert-verify: false
+- name: 🇬🇧GB-169.150.210.233-0421 | 25.064MB
+  server: 169.150.210.233
+  port: 8080
+  type: ss
+  cipher: rc4-md5
+  password: 14fFPrbezE3HDZzsMOr6
+- name: LT-45.87.175.157-5837 | 24.775MB
+  server: 45.87.175.157
+  port: 8080
   type: ss
   cipher: chacha20-ietf-poly1305
-  password: d3837224ed465f00
-- name: 🇵🇱PL-45.144.48.63-0452 | 1.948MB
+  password: 4a2rfixophdjffa8KVA4Aa
+- name: 🇨🇦CA-23.162.200.227-8683 | 24.677MB
+  server: 23.162.200.227
+  port: 443
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+- name: 🇬🇧GB-89.185.84.185-0436 | 24.149MB
+  server: 89.185.84.185
+  port: 12575
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: HaZ5Ek7pur79uPPFs55USt
+- name: 🇬🇧GB-212.102.53.80-0425 | 23.584MB
+  server: 212.102.53.80
+  port: 443
+  type: ss
+  cipher: aes-128-gcm
+  password: shadowsocks
+- name: 🇵🇱PL-45.144.48.63-0452 | 22.232MB
   server: war.ssvpnapp.win
   port: 57456
   type: ss
   cipher: chacha20-ietf-poly1305
   password: d3837224ed465f00
-- name: 🇨🇦CA-142.4.216.225-5428 | 1.856MB
-  server: 142.4.216.225
-  port: 80
+- name: 🇺🇸US-107.167.30.126-8663 | 20.536MB
+  server: 107.167.30.126
+  port: 30000
+  type: vmess
+  uuid: 57f93e92-ebb9-4f16-9bdc-8225d2010995
+  alterId: 64
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  servername: 🇺🇸US-107.167.30.126-8663 | 20.536MB
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: www.83645422.xyz
+- name: 🇫🇷FR-195.154.169.198-0422 | 19.869MB
+  server: 195.154.169.198
+  port: 989
+  type: ss
+  cipher: aes-256-cfb
+  password: f8f7aCzcPKbsF8p3
+- name: 🇺🇸US-205.134.180.150-0305 | 19.41MB
+  server: 205.134.180.150
+  port: 443
   type: ss
   cipher: chacha20-ietf-poly1305
-  password: JIhN6rBKkaEboLNXVSv5rq
-- name: 🇸🇬SG-128.199.172.224-0449 | 1.856MB
-  server: 128.199.172.224
+  password: 5cp9Z3iWnJZ2
+- name: 🇫🇷FR-51.158.244.38-0454 | 19.41MB
+  server: 51.158.244.38
   port: 8080
   type: ss
   cipher: rc4-md5
   password: 14fFPrbezE3HDZzsMOr6
-- name: 🇸🇬SG-68.183.227.236-0431 | 1.813MB
+- name: 🇺🇸US-23.251.121.242-5414 | 19.198MB
+  server: 23.251.121.242
+  port: 8080
+  type: ss
+  cipher: rc4-md5
+  password: 14fFPrbezE3HDZzsMOr6
+- name: 🇺🇸US-137.175.113.215-0426 | 19.196MB
+  server: 137.175.113.215
+  port: 8388
+  type: ss
+  cipher: chacha20-ietf
+  password: asd123456
+- name: 🇵🇱PL-45.144.48.63-0438 | 19.176MB
+  server: 45.144.48.63
+  port: 57456
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: d3837224ed465f00
+- name: 🇬🇧GB-149.7.16.73-6000 | 19.015MB
+  server: 149.7.16.73
+  port: 443
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+- name: 🇯🇵JP-149.22.87.240-0398 | 19.014MB
+  server: 149.22.87.240
+  port: 443
+  type: ss
+  cipher: aes-128-gcm
+  password: shadowsocks
+- name: 🇺🇸US-212.102.47.130-0372 | 18.916MB
+  server: 212.102.47.130
+  port: 443
+  type: ss
+  cipher: aes-128-gcm
+  password: shadowsocks
+- name: 🇬🇧GB-212.102.53.194-0186 | 18.881MB
+  server: 212.102.53.194
+  port: 443
+  type: ss
+  cipher: aes-128-gcm
+  password: shadowsocks
+- name: 🇨🇦CA-3.97.164.167-1367 | 18.833MB
+  server: 3.97.164.167
+  port: 22222
+  type: trojan
+  password: telegram-id-directvpn
+  sni: trojan.burgerip.co.uk
+  skip-cert-verify: false
+- name: 🇺🇸US-64.74.163.130-5897 | 18.688MB
+  server: 64.74.163.130
+  port: 990
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: f8f7aCzcPKbsF8p3
+- name: 🇰🇷KR-43.202.65.32-0866 | 18.618MB
+  server: 43.202.65.32
+  port: 443
+  type: ss
+  cipher: aes-256-cfb
+  password: amazonskr05
+- name: 🇬🇧GB-172.99.190.50-6001 | 18.558MB
+  server: 172.99.190.50
+  port: 443
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  alterId: 1
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+- name: 🇬🇧GB-212.102.53.78-0407 | 18.534MB
+  server: 212.102.53.78
+  port: 443
+  type: ss
+  cipher: aes-128-gcm
+  password: shadowsocks
+- name: 🇺🇸US-38.75.136.49-0503 | 18.512MB
+  server: 38.75.136.49
+  port: 7002
+  type: ss
+  cipher: aes-256-gcm
+  password: RexnBgU7EV5ADxG
+- name: 🇺🇸US-37.19.198.160-0401 | 18.47MB
+  server: 37.19.198.160
+  port: 443
+  type: ss
+  cipher: aes-128-gcm
+  password: shadowsocks
+- name: KZ-213.156.137.67-0466 | 18.467MB
+  server: 213.156.137.67
+  port: 989
+  type: ss
+  cipher: aes-256-cfb
+  password: f8f7aCzcPKbsF8p3
+- name: HU-91.219.237.102-0446 | 18.406MB
+  server: 91.219.237.102
+  port: 990
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: f8f7aCzcPKbsF8p3
+- name: 🇺🇸US-156.146.38.170-0377 | 18.398MB
+  server: 156.146.38.170
+  port: 443
+  type: ss
+  cipher: aes-128-gcm
+  password: shadowsocks
+- name: 🇸🇬SG-68.183.227.236-0431 | 18.382MB
   server: 68.183.227.236
   port: 8080
   type: ss
   cipher: rc4-md5
   password: 14fFPrbezE3HDZzsMOr6
-- name: 🇺🇸US-38.75.136.49-0484 | 1.772MB
-  server: 38.75.136.49
-  port: 8882
+- name: 🇸🇬SG-18.141.231.184-6271 | 18.362MB
+  server: 18.141.231.184
+  port: 443
   type: ss
-  cipher: aes-256-gcm
-  password: kDWvXYZoTBcGkC4
-- name: 🇸🇬SG-68.183.235.122-0443 | 1.604MB
-  server: 68.183.235.122
-  port: 8080
-  type: ss
-  cipher: rc4-md5
-  password: 14fFPrbezE3HDZzsMOr6
-- name: 🇭🇰HK-141.98.234.93-5877 | 1.557MB
-  server: 141.98.234.93
-  port: 20012
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: WfmxKX2FBJRU0Ie9VLIYDL
-- name: 🇦🇺AU-172.105.172.209-8670 | 1.492MB
+  cipher: aes-256-cfb
+  password: amazonskr05
+- name: 🇦🇺AU-172.105.172.209-8670 | 18.342MB
   server: 172.105.172.209
   port: 443
   type: vmess
@@ -1335,258 +714,704 @@ proxies:
     path: /
     headers:
       Host: 172.105.172.209
-- name: LT-195.238.126.84-0448 | 1.368MB
-  server: 195.238.126.84
-  port: 9039
-  type: ss
-  cipher: aes-256-cfb
-  password: qYEN5HX4JKeVCdEC
-- name: SE-94.228.165.178-5880 | 1.278MB
-  server: 94.228.165.178
-  port: 58176
+- name: NO-51.120.12.78-0432 | 18.33MB
+  server: 51.120.12.78
+  port: 34137
   type: ss
   cipher: chacha20-ietf-poly1305
-  password: afKAHp1VfRWZu91LIi9o0D
-- name: MD-178.175.134.2-0456 | 1.251MB
+  password: KrIV7QIoQmMps6L21IrbLv
+- name: 🇺🇸US-38.75.136.49-0512 | 18.309MB
+  server: 38.75.136.49
+  port: 7306
+  type: ss
+  cipher: aes-256-gcm
+  password: FoOiGlkAA9yPEGP
+- name: 🇸🇬SG-68.183.235.122-0443 | 18.16MB
+  server: 68.183.235.122
+  port: 8080
+  type: ss
+  cipher: rc4-md5
+  password: 14fFPrbezE3HDZzsMOr6
+- name: 🇬🇧GB-141.98.101.178-0515 | 17.907MB
+  server: 141.98.101.178
+  port: 443
+  type: ss
+  cipher: aes-128-gcm
+  password: shadowsocks
+- name: MD-178.175.134.2-0456 | 17.846MB
   server: 178.175.134.2
   port: 989
   type: ss
   cipher: aes-256-cfb
   password: f8f7aCzcPKbsF8p3
-- name: 🇸🇬SG-68.183.227.45-0428 | 1.242MB
-  server: 68.183.227.45
-  port: 8080
-  type: ss
-  cipher: rc4-md5
-  password: 14fFPrbezE3HDZzsMOr6
-- name: 🇸🇬SG-18.141.231.184-6271 | 1.241MB
-  server: 18.141.231.184
+- name: 🇬🇧GB-141.98.101.182-6395 | 17.767MB
+  server: 141.98.101.182
   port: 443
   type: ss
-  cipher: aes-256-cfb
-  password: amazonskr05
-- name: LT-45.87.175.181-0311 | 1.231MB
-  server: beesyar.org
-  port: 8080
+  cipher: aes-128-gcm
+  password: shadowsocks
+- name: 🇺🇸US-38.75.136.49-0487 | 17.757MB
+  server: 38.75.136.49
+  port: 2375
   type: ss
-  cipher: chacha20-ietf-poly1305
-  password: 4a2rfixophdjffa8KVA4Aa
-- name: 🇰🇷KR-144.24.88.133-0405 | 1.23MB
-  server: a.522226.xyz
-  port: 45101
-  type: trojan
-  password: xjN4xcuPGg
-  skip-cert-verify: false
-- name: 🇷🇺RU-45.151.62.54-5875 | 1.206MB
-  server: 45.151.62.54
-  port: 28825
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: 0zyDRZ1XmNXaaCAN7KEA8a
-- name: LT-45.87.175.181-0303 | 1.201MB
-  server: 45.87.175.181
-  port: 8080
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: cvII85TrW6n0OGyfpHVS1u
-- name: EE-147.45.60.33-6331 | 1.198MB
-  server: 147.45.60.33
-  port: 16356
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: LqlPI19oqnunGNSLMvdXyB
-- name: 🇩🇪DE-150.241.95.63-1351 | 1.194MB
-  server: 150.241.95.63
-  port: 12271
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: MDtZ$d1lcz
-- name: 🇩🇪DE-150.241.95.63-1352 | 1.193MB
-  server: 150.241.95.63
-  port: 37774
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: qbY6=zGuFl
-- name: 🇵🇱PL-77.83.246.74-5878 | 1.191MB
-  server: 77.83.246.74
-  port: 33320
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: MNJjSgxDIWBRASsnrp2T8r
-- name: LT-45.87.175.154-0304 | 1.19MB
-  server: 45.87.175.154
-  port: 8080
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: 4a2rfixophdjffa8KVA4Aa
-- name: KE-62.12.116.66-0486 | 1.184MB
-  server: 62.12.116.66
-  port: 989
-  type: ss
-  cipher: aes-256-cfb
-  password: f8f7aCzcPKbsF8p3
-- name: 🇺🇸US-38.107.226.146-0470 | 1.184MB
-  server: 38.107.226.146
-  port: 1230
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: H5S0hvcxRi#YLmgU
-- name: BH-15.184.95.91-1363 | 1.181MB
-  server: series-a2-me.varzesh360.co
-  port: 443
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: Bog0ELmMM9DSxDdQ
-- name: 🇨🇦CA-142.4.216.225-5737 | 1.178MB
-  server: ca225.vpnbook.com
-  port: 80
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: JIhN6rBKkaEboLNXVSv5rq
-- name: KZ-213.156.137.67-0466 | 1.177MB
-  server: 213.156.137.67
-  port: 989
-  type: ss
-  cipher: aes-256-cfb
-  password: f8f7aCzcPKbsF8p3
-- name: AE-3.29.85.232-0483 | 1.176MB
-  server: api.namasha.co
-  port: 443
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: u17T3BvpYaaiuW2c
-- name: 🇬🇧GB-77.72.5.113-0423 | 1.175MB
+  cipher: aes-256-gcm
+  password: faBAoD54k87UJG7
+- name: 🇬🇧GB-77.72.5.113-0423 | 17.517MB
   server: 77.72.5.113
   port: 989
   type: ss
   cipher: aes-256-cfb
   password: f8f7aCzcPKbsF8p3
-- name: 🇮🇳IN-159.65.149.72-0508 | 1.162MB
-  server: 159.65.149.72
-  port: 51348
+- name: 🇫🇷FR-193.160.130.245-8649 | 17.479MB
+  server: 193.160.130.245
+  port: 443
+  type: vmess
+  uuid: 9b456c2a-f2c1-45e1-87a9-b7628b04bb24
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: beyonddsz.cfd
+- name: 🇰🇷KR-144.24.88.133-0405 | 17.357MB
+  server: a.522226.xyz
+  port: 45101
+  type: trojan
+  password: xjN4xcuPGg
+  skip-cert-verify: false
+- name: RS-194.71.126.31-0457 | 17.159MB
+  server: 194.71.126.31
+  port: 989
+  type: ss
+  cipher: aes-256-cfb
+  password: f8f7aCzcPKbsF8p3
+- name: 🇰🇷KR-43.203.219.196-5413 | 17.134MB
+  server: 43.203.219.196
+  port: 443
+  type: ss
+  cipher: aes-256-cfb
+  password: amazonskr05
+- name: 🇫🇷FR-51.178.87.37-1353 | 17.108MB
+  server: 51.178.87.37
+  port: 807
   type: ss
   cipher: chacha20-ietf-poly1305
-  password: p7EhC8MR7o7GuRn27YF8SQNAKJ2lUbBNIjcyqSmBHsy8wLbJ
-- name: 🇭🇰HK-74.119.193.157-5958 | 1.162MB
-  server: 74.119.193.157
-  port: 51348
+  password: G!yBwPWH3Vao
+- name: 🇺🇸US-38.75.136.49-0481 | 17.081MB
+  server: 38.75.136.49
+  port: 6679
+  type: ss
+  cipher: aes-256-gcm
+  password: TEzjfAYq2IjtuoS
+- name: 🇫🇷FR-51.178.87.37-5700 | 17.065MB
+  server: 51.178.87.37
+  port: 810
   type: ss
   cipher: chacha20-ietf-poly1305
-  password: MB9JPCHgZtwzQZ2jy3gMrz2fCIjT6M4FJMbfemIc4XCBcplL
-- name: LT-45.87.175.192-5380 | 1.152MB
-  server: 45.87.175.192
-  port: 8080
+  password: G!yBwPWH3Vao
+- name: 🇬🇧GB-77.72.5.150-0482 | 17.017MB
+  server: 77.72.5.150
+  port: 989
   type: ss
-  cipher: chacha20-ietf-poly1305
-  password: 1RWwXhwfAB5gAEozU4G2Pg
-- name: 🇺🇸US-31.59.111.4-2272 | 1.151MB
-  server: 31.59.111.4
-  port: 4001
+  cipher: aes-256-cfb
+  password: f8f7aCzcPKbsF8p3
+- name: 🇰🇷KR-52.79.248.193-5378 | 16.998MB
+  server: 52.79.248.193
+  port: 443
   type: ss
-  cipher: aes-128-gcm
-  password: 89b90001-4206-4871-a99d-1744d48f215b
-- name: VN-103.163.218.2-0479 | 1.15MB
+  cipher: aes-256-cfb
+  password: amazonskr05
+- name: VN-103.163.218.2-0479 | 16.948MB
   server: 103.163.218.2
   port: 989
   type: ss
   cipher: aes-256-cfb
   password: f8f7aCzcPKbsF8p3
-- name: 🇪🇸ES-5.188.181.201-0480 | 1.141MB
-  server: 5.188.181.201
-  port: 9000
-  type: ss
-  cipher: aes-256-cfb
-  password: a3GFYt36Sm82Vys9
-- name: 🇵🇱PL-92.118.205.228-5744 | 1.133MB
-  server: 92.118.205.228
-  port: 990
+- name: 🇺🇸US-38.107.226.146-0470 | 16.859MB
+  server: 38.107.226.146
+  port: 1230
   type: ss
   cipher: chacha20-ietf-poly1305
-  password: f8f7aCzcPKbsF8p3
-- name: 🇬🇧GB-141.98.101.179-0475 | 1.131MB
+  password: H5S0hvcxRi#YLmgU
+- name: 🇬🇧GB-141.98.101.179-0475 | 16.846MB
   server: 141.98.101.179
   port: 443
   type: ss
   cipher: aes-128-gcm
   password: shadowsocks
-- name: IT-185.213.20.227-6404 | 1.122MB
-  server: 185.213.20.227
-  port: 990
+- name: 🇺🇸US-156.146.38.167-0379 | 16.845MB
+  server: 156.146.38.167
+  port: 443
   type: ss
-  cipher: chacha20-ietf-poly1305
-  password: f8f7aCzcPKbsF8p3
-- name: TR-45.89.52.66-5697 | 1.121MB
-  server: 45.89.52.66
-  port: 9043
+  cipher: aes-128-gcm
+  password: shadowsocks
+- name: 🇺🇸US-38.110.1.111-0485 | 16.8MB
+  server: 38.110.1.111
+  port: 8000
   type: ss
-  cipher: aes-256-cfb
-  password: HSZuyJQcWe8dxNdF
-- name: PA-138.186.142.4-0473 | 1.117MB
+  cipher: aes-256-gcm
+  password: KixLvKzwjekG00rm
+- name: PA-138.186.142.4-0473 | 16.772MB
   server: 138.186.142.4
   port: 989
   type: ss
   cipher: aes-256-cfb
   password: f8f7aCzcPKbsF8p3
-- name: TR-45.89.52.66-5462 | 1.117MB
-  server: 45.89.52.66
-  port: 9029
+- name: 🇺🇸US-212.102.47.131-0371 | 16.768MB
+  server: 212.102.47.131
+  port: 443
   type: ss
-  cipher: aes-256-cfb
-  password: dU3DSNS8wYPXzEKw
-- name: 🇪🇸ES-5.188.181.201-5611 | 1.104MB
-  server: 5.188.181.201
-  port: 9031
+  cipher: aes-128-gcm
+  password: shadowsocks
+- name: 🇺🇸US-156.146.38.168-0397 | 16.619MB
+  server: 156.146.38.168
+  port: 443
   type: ss
-  cipher: aes-256-cfb
-  password: BwcAUZk8hUFAkDGN
-- name: 🇪🇸ES-5.188.181.201-5494 | 1.099MB
-  server: 5.188.181.201
-  port: 9025
-  type: ss
-  cipher: aes-256-cfb
-  password: XPtzA9sCug3SPR4c
-- name: AR-190.103.176.29-0476 | 1.096MB
+  cipher: aes-128-gcm
+  password: shadowsocks
+- name: 🇬🇧GB-172.99.190.206-5992 | 16.586MB
+  server: 172.99.190.206
+  port: 443
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+- name: AR-190.103.176.29-0476 | 16.574MB
   server: 190.103.176.29
   port: 989
   type: ss
   cipher: aes-256-cfb
   password: f8f7aCzcPKbsF8p3
-- name: TR-45.89.52.66-5459 | 1.095MB
-  server: 45.89.52.66
+- name: 🇺🇸US-38.75.136.49-0484 | 16.544MB
+  server: 38.75.136.49
+  port: 8882
+  type: ss
+  cipher: aes-256-gcm
+  password: kDWvXYZoTBcGkC4
+- name: 🇸🇬SG-68.183.227.45-0428 | 16.542MB
+  server: 68.183.227.45
+  port: 8080
+  type: ss
+  cipher: rc4-md5
+  password: 14fFPrbezE3HDZzsMOr6
+- name: 🇳🇱NL-109.201.152.181-0413 | 16.289MB
+  server: 109.201.152.181
+  port: 443
+  type: ss
+  cipher: aes-128-cfb
+  password: shadowsocks
+- name: 🇪🇸ES-5.188.181.201-0480 | 16.177MB
+  server: 5.188.181.201
+  port: 9000
+  type: ss
+  cipher: aes-256-cfb
+  password: a3GFYt36Sm82Vys9
+- name: 🇫🇷FR-51.15.27.48-0417 | 16.137MB
+  server: 51.15.27.48
+  port: 989
+  type: ss
+  cipher: aes-256-cfb
+  password: f8f7aCzcPKbsF8p3
+- name: CZ-195.181.160.6-0450 | 16.092MB
+  server: 195.181.160.6
+  port: 990
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: f8f7aCzcPKbsF8p3
+- name: AE-3.29.85.232-0483 | 15.919MB
+  server: api.namasha.co
+  port: 443
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: u17T3BvpYaaiuW2c
+- name: KE-62.12.116.66-0486 | 15.749MB
+  server: 62.12.116.66
+  port: 989
+  type: ss
+  cipher: aes-256-cfb
+  password: f8f7aCzcPKbsF8p3
+- name: 🇪🇸ES-5.188.181.201-0506 | 15.746MB
+  server: 5.188.181.201
+  port: 9029
+  type: ss
+  cipher: aes-256-cfb
+  password: dU3DSNS8wYPXzEKw
+- name: 🇬🇧GB-212.102.53.198-0412 | 15.724MB
+  server: 212.102.53.198
+  port: 443
+  type: ss
+  cipher: aes-128-gcm
+  password: shadowsocks
+- name: 🇸🇬SG-128.199.172.224-0449 | 15.685MB
+  server: 128.199.172.224
+  port: 8080
+  type: ss
+  cipher: rc4-md5
+  password: 14fFPrbezE3HDZzsMOr6
+- name: 🇮🇳IN-159.65.149.72-0508 | 15.648MB
+  server: 159.65.149.72
+  port: 51348
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: p7EhC8MR7o7GuRn27YF8SQNAKJ2lUbBNIjcyqSmBHsy8wLbJ
+- name: 🇰🇷KR-43.200.1.13-0445 | 15.629MB
+  server: 43.200.1.13
+  port: 443
+  type: ss
+  cipher: aes-256-cfb
+  password: amazonskr05
+- name: 🇫🇷FR-51.15.15.82-0513 | 15.579MB
+  server: 51.15.15.82
+  port: 989
+  type: ss
+  cipher: aes-256-cfb
+  password: f8f7aCzcPKbsF8p3
+- name: 🇩🇪DE-80.92.204.106-5435 | 15.571MB
+  server: 80.92.204.106
+  port: 9005
+  type: ss
+  cipher: aes-256-cfb
+  password: ZET59LF6DvCC8KVt
+- name: RO-194.14.217.115-0472 | 15.554MB
+  server: 194.14.217.115
+  port: 989
+  type: ss
+  cipher: aes-256-cfb
+  password: f8f7aCzcPKbsF8p3
+- name: 🇩🇪DE-80.92.204.106-5464 | 15.516MB
+  server: 80.92.204.106
   port: 9037
   type: ss
   cipher: aes-256-cfb
   password: TN2YqghxeFDKZfLU
-- name: 🇳🇱NL-89.23.103.125-5874 | 1.093MB
-  server: 89.23.103.125
-  port: 42090
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: uQS5ntVqC00sSKkeNzUiD3
-- name: TR-45.89.52.66-0493 | 1.091MB
-  server: 45.89.52.66
-  port: 9030
+- name: 🇪🇸ES-5.188.181.201-5615 | 15.436MB
+  server: 5.188.181.201
+  port: 9042
   type: ss
   cipher: aes-256-cfb
-  password: GeregetR8cvQHzYr
-- name: TR-45.89.52.66-5612 | 1.09MB
-  server: 45.89.52.66
-  port: 9001
+  password: S7KwUu7yBy58S3Ga
+- name: 🇩🇪DE-80.92.204.106-5468 | 15.426MB
+  server: 80.92.204.106
+  port: 9020
   type: ss
   cipher: aes-256-cfb
-  password: UkXRsXvR6buDMG2Y
-- name: TR-45.89.52.66-5881 | 1.09MB
-  server: 45.89.52.66
-  port: 9003
+  password: BNmAXXxAHYpTRdzu
+- name: 🇫🇷FR-195.154.185.174-0451 | 15.383MB
+  server: 195.154.185.174
+  port: 989
   type: ss
   cipher: aes-256-cfb
-  password: JdmRK9gMEqFgs8nP
-- name: TR-45.89.52.66-5614 | 1.089MB
-  server: 45.89.52.66
+  password: f8f7aCzcPKbsF8p3
+- name: 🇪🇸ES-5.188.181.201-5758 | 15.319MB
+  server: 5.188.181.201
   port: 9040
   type: ss
   cipher: aes-256-cfb
   password: p9z5BVADH2YFs3MN
+- name: 🇵🇱PL-92.118.205.228-5744 | 15.318MB
+  server: 92.118.205.228
+  port: 990
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: f8f7aCzcPKbsF8p3
+- name: 🇪🇸ES-5.188.181.201-0488 | 15.254MB
+  server: 5.188.181.201
+  port: 9027
+  type: ss
+  cipher: aes-256-cfb
+  password: EXN3S3eQpjE7EJu8
+- name: EE-147.45.60.33-6331 | 15.131MB
+  server: 147.45.60.33
+  port: 16356
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: LqlPI19oqnunGNSLMvdXyB
+- name: 🇪🇸ES-5.188.181.201-0489 | 15.075MB
+  server: 5.188.181.201
+  port: 9019
+  type: ss
+  cipher: aes-256-cfb
+  password: GA9KzeEgvfxNrgmM
+- name: 🇪🇸ES-5.188.181.201-0495 | 15.002MB
+  server: 5.188.181.201
+  port: 9001
+  type: ss
+  cipher: aes-256-cfb
+  password: UkXRsXvR6buDMG2Y
+- name: 🇩🇪DE-80.92.204.106-0501 | 14.986MB
+  server: 80.92.204.106
+  port: 9046
+  type: ss
+  cipher: aes-256-cfb
+  password: NvS8N4Vf8qAGPSCL
+- name: IE-23.92.127.134-0536 | 14.873MB
+  server: 23.92.127.134
+  port: 989
+  type: ss
+  cipher: aes-256-cfb
+  password: f8f7aCzcPKbsF8p3
+- name: LT-45.87.175.199-0453 | 14.837MB
+  server: 45.87.175.199
+  port: 8080
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 4a2rfixophdjffa8KVA4Aa
+- name: 🇯🇵JP-107.148.6.121-0516 | 14.82MB
+  server: 107.148.6.121
+  port: 8388
+  type: ss
+  cipher: chacha20-ietf
+  password: asd123456
+- name: 🇩🇪DE-57.129.24.141-5734 | 14.687MB
+  server: 57.129.24.141
+  port: 443
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+- name: 🇭🇰HK-141.98.234.93-5877 | 14.671MB
+  server: 141.98.234.93
+  port: 20012
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: WfmxKX2FBJRU0Ie9VLIYDL
+- name: 🇨🇦CA-142.4.216.225-5428 | 14.615MB
+  server: 142.4.216.225
+  port: 80
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: JIhN6rBKkaEboLNXVSv5rq
+- name: 🇪🇸ES-5.188.181.201-5494 | 14.38MB
+  server: 5.188.181.201
+  port: 9025
+  type: ss
+  cipher: aes-256-cfb
+  password: XPtzA9sCug3SPR4c
+- name: 🇰🇷KR-43.202.1.19-6246 | 14.221MB
+  server: 43.202.1.19
+  port: 443
+  type: ss
+  cipher: aes-256-cfb
+  password: amazonskr05
+- name: 🇰🇷KR-52.79.52.119-0868 | 14.221MB
+  server: 52.79.52.119
+  port: 443
+  type: ss
+  cipher: aes-256-cfb
+  password: amazonskr05
+- name: 🇰🇷KR-43.203.122.162-0873 | 14.079MB
+  server: 43.203.122.162
+  port: 443
+  type: ss
+  cipher: aes-256-cfb
+  password: amazonskr05
+- name: 🇪🇸ES-5.188.181.201-5496 | 13.587MB
+  server: 5.188.181.201
+  port: 9005
+  type: ss
+  cipher: aes-256-cfb
+  password: ZET59LF6DvCC8KVt
+- name: 🇨🇦CA-142.4.216.225-5737 | 12.91MB
+  server: ca225.vpnbook.com
+  port: 80
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: JIhN6rBKkaEboLNXVSv5rq
+- name: 🇬🇧GB-212.102.53.81-0420 | 12.724MB
+  server: 212.102.53.81
+  port: 443
+  type: ss
+  cipher: aes-128-gcm
+  password: shadowsocks
+- name: 🇬🇧GB-185.5.38.111-5816 | 12.521MB
+  server: mx2.drawnrisha.one
+  port: 55988
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: bZ87amPpdG7KuWM62bKtm1KHoowuVjnV8CKtq653ymHcg2dPYcPJfnaQ61stuAjr2ZiLDaqH56XpkxEYuwDzzRrMWieebWGt
+- name: 🇩🇰DK-192.36.27.94-0491 | 11.77MB
+  server: 192.36.27.94
+  port: 989
+  type: ss
+  cipher: aes-256-cfb
+  password: f8f7aCzcPKbsF8p3
+- name: 🇪🇸ES-5.188.181.201-5497 | 11.565MB
+  server: 5.188.181.201
+  port: 9054
+  type: ss
+  cipher: aes-256-cfb
+  password: VcFuyXvND2yQWSFY
+- name: IE-23.92.127.133-0507 | 11.494MB
+  server: 23.92.127.133
+  port: 989
+  type: ss
+  cipher: aes-256-cfb
+  password: f8f7aCzcPKbsF8p3
+- name: 🇺🇸US-23.157.40.103-6036 | 11.028MB
+  server: 23.157.40.103
+  port: 6679
+  type: ss
+  cipher: aes-256-gcm
+  password: TEzjfAYq2IjtuoS
+- name: 🇺🇸US-23.150.152.16-0511 | 10.421MB
+  server: 23.150.152.16
+  port: 8118
+  type: ss
+  cipher: aes-256-gcm
+  password: cdBIDV42DCwnfIN
+- name: 🇩🇪DE-23.157.88.61-6307 | 9.727MB
+  server: 23.157.88.61
+  port: 2376
+  type: ss
+  cipher: aes-256-gcm
+  password: faBAoD54k87UJG7
+- name: 🇺🇸US-67.220.95.102-0551 | 9.684MB
+  server: 67.220.95.102
+  port: 3306
+  type: ss
+  cipher: aes-256-gcm
+  password: Y6R9pAtvxxzmGC
+- name: 🇺🇸US-23.157.40.103-6018 | 9.435MB
+  server: 23.157.40.103
+  port: 7307
+  type: ss
+  cipher: aes-256-gcm
+  password: FoOiGlkAA9yPEGP
+- name: 🇺🇸US-23.157.40.87-6104 | 9.359MB
+  server: 23.157.40.87
+  port: 9101
+  type: ss
+  cipher: aes-256-gcm
+  password: e4FCWrgpkji3QY
+- name: LV-46.183.217.232-5716 | 9.321MB
+  server: 46.183.217.232
+  port: 989
+  type: ss
+  cipher: aes-256-cfb
+  password: f8f7aCzcPKbsF8p3
+- name: 🇺🇸US-69.50.93.86-6312 | 9.227MB
+  server: 69.50.93.86
+  port: 8888
+  type: ss
+  cipher: aes-256-gcm
+  password: Y6R9pAtvxxzmGC
+- name: 🇺🇸US-69.50.92.55-5932 | 9.182MB
+  server: 69.50.92.55
+  port: 9102
+  type: ss
+  cipher: aes-256-gcm
+  password: e4FCWrgpkji3QY
+- name: 🇺🇸US-23.157.40.87-0539 | 9.128MB
+  server: 23.157.40.87
+  port: 5498
+  type: ss
+  cipher: aes-256-gcm
+  password: lGqs95QkFHo2NV
+- name: 🇺🇸US-23.157.40.103-6031 | 8.764MB
+  server: 23.157.40.103
+  port: 5003
+  type: ss
+  cipher: aes-256-gcm
+  password: g5MeD6Ft3CWlJId
+- name: 🇺🇸US-23.157.40.103-6029 | 8.524MB
+  server: 23.157.40.103
+  port: 6379
+  type: ss
+  cipher: aes-256-gcm
+  password: zDNVedRFPQexG9v
+- name: 🇺🇸US-67.220.95.102-6319 | 7.656MB
+  server: 67.220.95.102
+  port: 8090
+  type: ss
+  cipher: aes-256-gcm
+  password: PCnnH6SQSnfoS27
+- name: 🇬🇧GB-185.5.38.111-5814 | 7.312MB
+  server: 185.5.38.111
+  port: 55988
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: BpFieMT6SobpqRiKFefvYu7eXk99XfCeWfjpntzSh81FfMx9R7rJW6LTmzH78StTEhCd7w32ZMxbGJZS98gpn1ozr9jAbMoa
+- name: 🇺🇸US-67.220.95.102-0542 | 7.204MB
+  server: 67.220.95.102
+  port: 5499
+  type: ss
+  cipher: aes-256-gcm
+  password: lGqs95QkFHo2NV
+- name: 🇺🇸US-23.157.40.87-6140 | 7.065MB
+  server: 23.157.40.87
+  port: 5499
+  type: ss
+  cipher: aes-256-gcm
+  password: lGqs95QkFHo2NV
+- name: 🇺🇸US-23.150.152.16-6354 | 6.988MB
+  server: 23.150.152.16
+  port: 6379
+  type: ss
+  cipher: aes-256-gcm
+  password: zDNVedRFPQexG9v
+- name: BE-192.71.249.78-0502 | 6.143MB
+  server: 192.71.249.78
+  port: 989
+  type: ss
+  cipher: aes-256-cfb
+  password: f8f7aCzcPKbsF8p3
+- name: 🇺🇸US-23.157.40.87-6195 | 5.893MB
+  server: 23.157.40.87
+  port: 8119
+  type: ss
+  cipher: aes-256-gcm
+  password: cdBIDV42DCwnfIN
+- name: 🇺🇸US-23.157.40.103-6014 | 5.549MB
+  server: 23.157.40.103
+  port: 6697
+  type: ss
+  cipher: aes-256-gcm
+  password: TEzjfAYq2IjtuoS
+- name: 🇺🇸US-38.75.136.108-5503 | 5.538MB
+  server: 38.75.136.108
+  port: 9101
+  type: ss
+  cipher: aes-256-gcm
+  password: e4FCWrgpkji3QY
+- name: 🇺🇸US-69.50.95.203-5952 | 5.087MB
+  server: 69.50.95.203
+  port: 5601
+  type: ss
+  cipher: aes-256-gcm
+  password: Y6R9pAtvxxzmGC
+- name: 🇺🇸US-67.220.95.102-6314 | 4.694MB
+  server: 67.220.95.102
+  port: 8009
+  type: ss
+  cipher: aes-256-gcm
+  password: XKFKl2rULjIp74
+- name: 🇺🇸US-67.220.95.102-6384 | 4.428MB
+  server: 67.220.95.102
+  port: 5601
+  type: ss
+  cipher: aes-256-gcm
+  password: Y6R9pAtvxxzmGC
+- name: 🇺🇸US-23.157.40.120-6425 | 4.277MB
+  server: 23.157.40.120
+  port: 7001
+  type: ss
+  cipher: aes-256-gcm
+  password: RexnBgU7EV5ADxG
+- name: 🇺🇸US-23.157.40.103-6022 | 4.023MB
+  server: 23.157.40.103
+  port: 8008
+  type: ss
+  cipher: aes-256-gcm
+  password: XKFKl2rULjIp74
+- name: 🇺🇸US-23.157.40.87-6152 | 3.801MB
+  server: 23.157.40.87
+  port: 9102
+  type: ss
+  cipher: aes-256-gcm
+  password: e4FCWrgpkji3QY
+- name: 🇺🇸US-23.150.152.16-6401 | 3.588MB
+  server: 23.150.152.16
+  port: 5004
+  type: ss
+  cipher: aes-256-gcm
+  password: g5MeD6Ft3CWlJId
+- name: 🇺🇸US-69.50.95.218-6434 | 3.452MB
+  server: 69.50.95.218
+  port: 6697
+  type: ss
+  cipher: aes-256-gcm
+  password: TEzjfAYq2IjtuoS
+- name: 🇺🇸US-23.157.40.47-0517 | 3.367MB
+  server: 23.157.40.47
+  port: 5003
+  type: ss
+  cipher: aes-256-gcm
+  password: g5MeD6Ft3CWlJId
+- name: 🇩🇪DE-80.92.204.106-5749 | 3.296MB
+  server: 80.92.204.106
+  port: 9064
+  type: ss
+  cipher: aes-256-cfb
+  password: cp8pRSUAyLhTfVWH
+- name: CH-23.166.88.198-6469 | 3.224MB
+  server: 23.166.88.198
+  port: 3306
+  type: ss
+  cipher: aes-256-gcm
+  password: Y6R9pAtvxxzmGC
+- name: 🇺🇸US-69.50.95.103-5944 | 3.214MB
+  server: 69.50.95.103
+  port: 8008
+  type: ss
+  cipher: aes-256-gcm
+  password: XKFKl2rULjIp74
+- name: 🇺🇸US-69.50.95.103-5942 | 3.186MB
+  server: 69.50.95.103
+  port: 9101
+  type: ss
+  cipher: aes-256-gcm
+  password: e4FCWrgpkji3QY
+- name: 🇺🇸US-23.157.40.103-6130 | 3.161MB
+  server: 23.157.40.103
+  port: 5500
+  type: ss
+  cipher: aes-256-gcm
+  password: KixLvKzwjekG00rm
+- name: 🇺🇸US-23.157.40.120-6113 | 3.018MB
+  server: 23.157.40.120
+  port: 8882
+  type: ss
+  cipher: aes-256-gcm
+  password: kDWvXYZoTBcGkC4
+- name: 🇺🇸US-69.50.95.218-0558 | 2.875MB
+  server: 69.50.95.218
+  port: 2375
+  type: ss
+  cipher: aes-256-gcm
+  password: faBAoD54k87UJG7
+- name: 🇺🇸US-23.150.152.56-6379 | 2.832MB
+  server: 23.150.152.56
+  port: 6697
+  type: ss
+  cipher: aes-256-gcm
+  password: TEzjfAYq2IjtuoS
+- name: 🇺🇸US-69.50.95.174-6327 | 2.789MB
+  server: 69.50.95.174
+  port: 443
+  type: ss
+  cipher: aes-256-gcm
+  password: pKEW8JPByTVTLtM
+- name: 🇫🇷FR-54.36.174.181-5652 | 2.69MB
+  server: 54.36.174.181
+  port: 4444
+  type: ss
+  cipher: aes-256-gcm
+  password: pKEW8JPByTVTLtM
+- name: 🇺🇸US-69.50.95.180-6439 | 2.641MB
+  server: 69.50.95.180
+  port: 5000
+  type: ss
+  cipher: aes-256-gcm
+  password: Y6R9pAtvxxzmGC
+- name: 🇺🇸US-67.220.95.102-6485 | 2.512MB
+  server: 67.220.95.102
+  port: 5500
+  type: ss
+  cipher: aes-256-gcm
+  password: KixLvKzwjekG00rm
 proxy-groups:
 - name: Global ©️
   type: select
@@ -1643,224 +1468,224 @@ proxy-groups:
   interval: 300
   tolerance: 100
   proxies:
-  - 🇺🇸US-207.246.101.50-0370 | 160.317MB
-  - 🇺🇸US-144.202.112.106-1349 | 128.253MB
-  - 🇺🇸US-173.244.56.6-5412 | 123.465MB
-  - RELAY-104.16.60.8-0844 | 120.133MB
-  - 🇺🇸US-23.150.248.54-0384 | 119.885MB
-  - 🇺🇸US-23.150.248.50-0381 | 108.075MB
-  - 🇺🇸US-156.146.38.168-0397 | 103.393MB
-  - 🇺🇸US-156.146.38.169-0490 | 98.384MB
-  - 🇺🇸US-156.146.38.167-0379 | 81.57MB
-  - 🇺🇸US-23.251.121.242-5414 | 80.521MB
-  - 🇺🇸US-154.3.8.151-6071 | 80.409MB
-  - 🇺🇸US-156.146.38.170-0377 | 77.788MB
-  - RELAY-104.16.61.8-0843 | 76.604MB
-  - 🇺🇸US-23.150.248.107-0383 | 71.164MB
-  - RELAY-104.18.25.92-8869 | 70.946MB
-  - 🇺🇸US-38.14.107.228-8656 | 70.881MB
-  - 🇺🇸US-38.14.107.225-8706 | 70.859MB
-  - 🇺🇸US-23.150.248.107-0380 | 70.729MB
-  - 🇺🇸US-38.14.107.233-8694 | 70.643MB
-  - 🇺🇸US-184.170.241.194-0374 | 65.71MB
-  - 🇺🇸US-38.14.107.226-5977 | 62.063MB
-  - 🇺🇸US-107.155.57.51-5409 | 57.358MB
-  - RELAY-104.21.83.108-8739 | 53.291MB
-  - RELAY-195.85.59.22-8785 | 50.249MB
-  - RELAY-104.21.83.115-8771 | 45.445MB
-  - RELAY-104.21.1.32-5974 | 43.531MB
-  - 🇺🇸US-212.102.47.131-0371 | 41.546MB
-  - 🇺🇸US-79.110.53.169-0388 | 41.546MB
-  - 🇺🇸US-18.237.72.225-0859 | 39.592MB
-  - 🇺🇸US-52.41.180.11-5329 | 39.377MB
-  - 🇺🇸US-54.218.229.170-0376 | 39.35MB
-  - RELAY-173.245.58.5-8766 | 38.563MB
-  - 🇨🇦CA-149.22.95.183-0474 | 38.429MB
-  - 🇺🇸US-34.215.192.217-0724 | 38.359MB
-  - 🇺🇸US-212.102.47.130-0372 | 38.044MB
-  - 🇺🇸US-34.222.132.123-0734 | 37.857MB
-  - 🇺🇸US-137.175.113.192-5326 | 37.513MB
-  - RELAY-104.18.12.15-8737 | 37.489MB
-  - 🇺🇸US-107.155.57.11-0399 | 36.728MB
-  - 🇺🇸US-194.5.215.59-0389 | 34.816MB
-  - 🇺🇸US-152.70.115.209-0385 | 34.245MB
-  - 🇺🇸US-54.161.163.112-1358 | 34.235MB
-  - 🇺🇸US-69.50.93.90-8664 | 33.511MB
-  - 🇺🇸US-23.154.136.2-8686 | 33.492MB
-  - 🇺🇸US-142.202.48.220-0393 | 33.443MB
-  - 🇺🇸US-38.91.106.227-8677 | 33.434MB
-  - 🇺🇸US-45.55.2.232-0386 | 33.434MB
-  - 🇺🇸US-142.202.48.220-0395 | 33.071MB
-  - 🇨🇦CA-134.195.196.138-0391 | 33.052MB
-  - 🇨🇦CA-23.162.200.94-8651 | 32.246MB
+  - 🇨🇦CA-172.105.13.246-8758 | 162.113MB
+  - 🇺🇸US-142.202.48.220-0395 | 157.054MB
+  - 🇺🇸US-38.99.82.203-8669 | 142.635MB
+  - 🇺🇸US-69.50.93.90-8664 | 141.243MB
+  - 🇺🇸US-37.19.198.244-0404 | 136.335MB
+  - 🇨🇦CA-23.162.200.94-8651 | 134.984MB
+  - 🇺🇸US-23.150.248.107-0380 | 131.011MB
+  - 🇨🇦CA-134.195.196.138-0391 | 125.405MB
+  - 🇺🇸US-142.202.48.220-0393 | 114.773MB
+  - 🇺🇸US-23.154.136.2-8686 | 103.025MB
+  - 🇺🇸US-23.150.248.54-0384 | 102.387MB
+  - 🇺🇸US-194.5.215.59-0389 | 99.483MB
+  - 🇺🇸US-38.91.106.227-8677 | 97.76MB
+  - 🇺🇸US-156.146.38.169-0490 | 97.719MB
+  - 🇺🇸US-23.150.248.50-0381 | 96.578MB
+  - 🇺🇸US-23.150.248.107-0383 | 89.797MB
+  - 🇨🇦CA-149.22.95.183-0474 | 87.127MB
+  - 🇺🇸US-38.14.107.228-8656 | 86.703MB
+  - 🇺🇸US-38.14.107.225-8706 | 83.936MB
+  - 🇺🇸US-205.134.180.139-0465 | 79.744MB
+  - 🇺🇸US-38.14.107.233-8694 | 70.321MB
+  - 🇬🇧GB-149.7.16.174-5372 | 68.369MB
+  - 🇺🇸US-38.99.82.203-5993 | 68.308MB
+  - 🇬🇧GB-172.99.190.180-6297 | 68.007MB
+  - 🇬🇧GB-149.7.16.174-0875 | 66.771MB
+  - 🇳🇱NL-149.34.244.68-0427 | 61.291MB
+  - 🇺🇸US-38.14.107.226-5977 | 54.831MB
+  - 🇬🇧GB-212.102.53.195-0410 | 53.513MB
+  - 🇬🇧GB-149.7.16.188-5995 | 52.127MB
+  - 🇺🇸US-194.116.173.21-5449 | 51.94MB
+  - 🇺🇸US-107.155.57.11-0399 | 51.719MB
+  - 🇫🇷FR-51.77.20.137-8668 | 47.869MB
+  - LT-45.87.175.166-5835 | 45.17MB
+  - 🇺🇸US-205.134.180.147-5618 | 43.919MB
+  - CH-156.146.62.162-0429 | 42.352MB
+  - 🇺🇸US-107.155.57.51-5409 | 41.405MB
+  - 🇫🇷FR-146.19.168.161-8717 | 39.626MB
+  - 🇬🇧GB-212.102.53.197-0414 | 39.018MB
+  - 🇳🇱NL-5.35.47.122-5873 | 38.295MB
+  - 🇩🇪DE-57.129.24.125-5350 | 37.789MB
+  - 🇺🇸US-34.215.192.217-0724 | 37.404MB
+  - 🇬🇧GB-149.7.16.194-5990 | 37.23MB
+  - 🇪🇸ES-194.87.45.189-5742 | 37.075MB
+  - 🇺🇸US-207.246.101.50-0370 | 36.78MB
+  - 🇺🇸US-205.134.180.151-0505 | 36.364MB
+  - CH-156.146.62.163-0441 | 35.68MB
+  - 🇬🇧GB-212.102.53.79-0430 | 35.538MB
+  - NO-51.13.114.206-0435 | 35.424MB
+  - 🇺🇸US-37.19.198.243-0392 | 34.66MB
+  - 🇬🇧GB-212.102.53.196-0408 | 34.043MB
 - name: Tier 2 ⚡️
   type: url-test
   url: http://clients3.google.com/generate_204
   interval: 300
   tolerance: 100
   proxies:
-  - 🇺🇸US-37.19.198.243-0392 | 32.183MB
-  - 🇺🇸US-37.19.198.244-0404 | 32.001MB
-  - 🇨🇦CA-23.162.200.227-8683 | 31.935MB
-  - 🇺🇸US-38.99.82.203-8669 | 31.895MB
-  - 🇺🇸US-37.19.198.160-0401 | 31.891MB
-  - 🇺🇸US-38.99.82.203-5993 | 31.829MB
-  - 🇺🇸US-205.134.180.151-0505 | 31.807MB
-  - 🇺🇸US-205.134.180.150-0305 | 31.79MB
-  - 🇺🇸US-205.134.180.139-0465 | 31.703MB
-  - 🇨🇦CA-134.195.198.147-8657 | 31.668MB
-  - 🇨🇦CA-172.105.13.246-8758 | 31.427MB
-  - 🇺🇸US-205.134.180.137-0477 | 31.364MB
-  - 🇺🇸US-107.167.30.126-8663 | 31.094MB
-  - 🇺🇸US-64.74.163.130-5897 | 31.056MB
-  - 🇺🇸US-38.75.136.49-0512 | 30.804MB
-  - 🇺🇸US-107.175.96.74-5454 | 30.752MB
-  - 🇺🇸US-92.118.112.111-0541 | 30.698MB
-  - 🇺🇸US-194.116.173.21-5449 | 30.682MB
-  - 🇯🇵JP-149.22.87.240-0398 | 30.536MB
-  - 🇯🇵JP-149.22.87.241-0402 | 30.332MB
-  - 🇺🇸US-38.75.136.49-0503 | 30.052MB
-  - 🇬🇧GB-172.99.190.180-6297 | 29.637MB
-  - 🇬🇧GB-89.185.84.185-0436 | 29.351MB
-  - 🇬🇧GB-89.185.84.185-5872 | 29.2MB
-  - 🇳🇱NL-109.201.152.181-0413 | 28.904MB
-  - 🇬🇧GB-149.7.16.73-6000 | 28.75MB
-  - 🇬🇧GB-172.99.190.50-6001 | 28.613MB
-  - 🇫🇷FR-51.15.27.48-0417 | 28.401MB
-  - 🇬🇧GB-149.7.16.174-0875 | 28.217MB
-  - 🇬🇧GB-149.7.16.174-5372 | 27.392MB
-  - 🇬🇧GB-149.7.16.188-5995 | 27.312MB
-  - 🇬🇧GB-172.99.190.206-5992 | 27.267MB
-  - 🇳🇱NL-149.34.244.68-0427 | 27.199MB
-  - 🇬🇧GB-149.7.16.194-5990 | 27.164MB
-  - 🇫🇷FR-195.154.185.174-0451 | 27.152MB
-  - 🇫🇷FR-51.159.111.208-0447 | 27.028MB
-  - 🇺🇸US-38.110.1.111-0485 | 26.927MB
-  - 🇫🇷FR-195.154.169.198-0422 | 25.857MB
-  - 🇬🇧GB-212.102.53.195-0410 | 25.722MB
-  - 🇬🇧GB-212.102.53.197-0414 | 24.823MB
-  - 🇬🇧GB-212.102.53.80-0425 | 24.473MB
-  - 🇬🇧GB-77.72.5.150-0482 | 24.389MB
-  - 🇬🇧GB-212.102.53.79-0430 | 24.349MB
-  - 🇬🇧GB-212.102.53.78-0407 | 24.327MB
-  - 🇫🇷FR-193.160.130.201-8674 | 23.092MB
-  - 🇬🇧GB-212.102.53.193-0415 | 22.937MB
-  - 🇬🇧GB-212.102.53.81-0420 | 19.465MB
-  - 🇫🇷FR-51.158.244.38-0454 | 17.398MB
-  - 🇳🇱NL-149.34.244.77-0424 | 16.808MB
-  - 🇬🇧GB-212.102.53.197-0411 | 16.746MB
+  - 🇺🇸US-173.244.56.6-5412 | 33.993MB
+  - SE-121.127.46.147-0437 | 32.183MB
+  - 🇺🇸US-205.134.180.137-0477 | 32.054MB
+  - 🇺🇸US-45.55.2.232-0386 | 31.449MB
+  - 🇫🇷FR-51.159.111.208-0447 | 28.948MB
+  - 🇺🇸US-184.170.241.194-0374 | 28.084MB
+  - CH-156.146.62.164-0433 | 25.506MB
+  - 🇺🇸US-152.70.115.209-0385 | 25.11MB
+  - 🇬🇧GB-169.150.210.233-0421 | 25.064MB
+  - LT-45.87.175.157-5837 | 24.775MB
+  - 🇨🇦CA-23.162.200.227-8683 | 24.677MB
+  - 🇬🇧GB-89.185.84.185-0436 | 24.149MB
+  - 🇬🇧GB-212.102.53.80-0425 | 23.584MB
+  - 🇵🇱PL-45.144.48.63-0452 | 22.232MB
+  - 🇺🇸US-107.167.30.126-8663 | 20.536MB
+  - 🇫🇷FR-195.154.169.198-0422 | 19.869MB
+  - 🇺🇸US-205.134.180.150-0305 | 19.41MB
+  - 🇫🇷FR-51.158.244.38-0454 | 19.41MB
+  - 🇺🇸US-23.251.121.242-5414 | 19.198MB
+  - 🇺🇸US-137.175.113.215-0426 | 19.196MB
+  - 🇵🇱PL-45.144.48.63-0438 | 19.176MB
+  - 🇬🇧GB-149.7.16.73-6000 | 19.015MB
+  - 🇯🇵JP-149.22.87.240-0398 | 19.014MB
+  - 🇺🇸US-212.102.47.130-0372 | 18.916MB
+  - 🇬🇧GB-212.102.53.194-0186 | 18.881MB
+  - 🇨🇦CA-3.97.164.167-1367 | 18.833MB
+  - 🇺🇸US-64.74.163.130-5897 | 18.688MB
+  - 🇰🇷KR-43.202.65.32-0866 | 18.618MB
+  - 🇬🇧GB-172.99.190.50-6001 | 18.558MB
+  - 🇬🇧GB-212.102.53.78-0407 | 18.534MB
+  - 🇺🇸US-38.75.136.49-0503 | 18.512MB
+  - 🇺🇸US-37.19.198.160-0401 | 18.47MB
+  - KZ-213.156.137.67-0466 | 18.467MB
+  - HU-91.219.237.102-0446 | 18.406MB
+  - 🇺🇸US-156.146.38.170-0377 | 18.398MB
+  - 🇸🇬SG-68.183.227.236-0431 | 18.382MB
+  - 🇸🇬SG-18.141.231.184-6271 | 18.362MB
+  - 🇦🇺AU-172.105.172.209-8670 | 18.342MB
+  - NO-51.120.12.78-0432 | 18.33MB
+  - 🇺🇸US-38.75.136.49-0512 | 18.309MB
+  - 🇸🇬SG-68.183.235.122-0443 | 18.16MB
+  - 🇬🇧GB-141.98.101.178-0515 | 17.907MB
+  - MD-178.175.134.2-0456 | 17.846MB
+  - 🇬🇧GB-141.98.101.182-6395 | 17.767MB
+  - 🇺🇸US-38.75.136.49-0487 | 17.757MB
+  - 🇬🇧GB-77.72.5.113-0423 | 17.517MB
+  - 🇫🇷FR-193.160.130.245-8649 | 17.479MB
+  - 🇰🇷KR-144.24.88.133-0405 | 17.357MB
+  - RS-194.71.126.31-0457 | 17.159MB
+  - 🇰🇷KR-43.203.219.196-5413 | 17.134MB
 - name: Tier 3 💎
   type: url-test
   url: http://clients3.google.com/generate_204
   interval: 300
   tolerance: 100
   proxies:
-  - 🇬🇧GB-212.102.53.196-0408 | 16.35MB
-  - 🇳🇱NL-5.35.47.122-5873 | 15.91MB
-  - 🇬🇧GB-212.102.53.194-0186 | 15.598MB
-  - 🇸🇬SG-206.238.236.36-8795 | 15.42MB
-  - 🇬🇧GB-212.102.53.198-0412 | 14.633MB
-  - 🇩🇪DE-81.19.141.45-0462 | 13.513MB
-  - 🇳🇱NL-149.34.244.82-0418 | 13.03MB
-  - LT-45.87.175.157-5837 | 13.012MB
-  - LT-45.87.175.171-5833 | 11.732MB
-  - 🇰🇷KR-43.203.122.162-0873 | 11.708MB
-  - LT-45.87.175.199-0453 | 11.482MB
-  - RELAY-104.17.197.31-8753 | 11.303MB
-  - 🇩🇪DE-172.104.142.89-5979 | 11.301MB
-  - 🇩🇪DE-130.61.77.41-5359 | 10.442MB
-  - 🇳🇱NL-150.241.68.171-5757 | 9.778MB
-  - 🇩🇪DE-130.61.156.132-5745 | 9.736MB
-  - 🇫🇷FR-193.160.130.245-8681 | 9.708MB
-  - 🇬🇧GB-169.150.210.233-0421 | 9.229MB
-  - 🇫🇷FR-146.19.168.161-8717 | 8.282MB
-  - 🇫🇷FR-45.145.165.113-8712 | 8.06MB
-  - 🇰🇷KR-13.125.90.251-6264 | 7.132MB
-  - 🇬🇧GB-141.98.101.182-6395 | 7.07MB
-  - 🇩🇪DE-193.108.119.230-5360 | 6.237MB
-  - 🇫🇷FR-45.145.167.103-5759 | 6.187MB
-  - 🇬🇧GB-141.98.101.180-6322 | 6.153MB
-  - CZ-195.181.160.6-0450 | 5.803MB
-  - SE-51.21.73.169-1356 | 5.694MB
-  - RELAY-104.18.24.92-9043 | 5.593MB
-  - 🇫🇷FR-146.19.168.161-5760 | 5.4MB
-  - LT-45.87.175.164-5382 | 5.343MB
-  - 🇺🇸US-137.175.113.215-0426 | 5.243MB
-  - NO-51.120.12.78-0432 | 5.169MB
-  - 🇫🇷FR-193.160.130.245-8649 | 4.839MB
-  - RS-194.71.126.31-0457 | 4.69MB
-  - SE-46.246.98.155-5889 | 4.228MB
-  - NO-51.13.114.206-0435 | 3.73MB
-  - CH-156.146.62.162-0429 | 3.671MB
-  - CH-156.146.62.164-0433 | 3.613MB
-  - CH-156.146.62.163-0441 | 3.3MB
-  - CH-156.146.62.161-0434 | 3.144MB
-  - SE-13.48.251.198-1360 | 2.863MB
-  - 🇭🇰HK-103.17.99.54-6437 | 2.811MB
-  - 🇫🇷FR-51.77.20.137-8668 | 2.784MB
-  - 🇩🇪DE-57.129.24.141-5734 | 2.7MB
-  - RO-194.14.217.115-0472 | 2.649MB
-  - 🇩🇪DE-57.129.24.125-5350 | 2.263MB
-  - SE-121.127.46.147-0437 | 2.069MB
-  - HU-91.219.237.102-0446 | 2.001MB
-  - 🇺🇸US-38.75.136.49-0481 | 1.991MB
-  - 🇺🇸US-38.75.136.49-0487 | 1.973MB
+  - 🇫🇷FR-51.178.87.37-1353 | 17.108MB
+  - 🇺🇸US-38.75.136.49-0481 | 17.081MB
+  - 🇫🇷FR-51.178.87.37-5700 | 17.065MB
+  - 🇬🇧GB-77.72.5.150-0482 | 17.017MB
+  - 🇰🇷KR-52.79.248.193-5378 | 16.998MB
+  - VN-103.163.218.2-0479 | 16.948MB
+  - 🇺🇸US-38.107.226.146-0470 | 16.859MB
+  - 🇬🇧GB-141.98.101.179-0475 | 16.846MB
+  - 🇺🇸US-156.146.38.167-0379 | 16.845MB
+  - 🇺🇸US-38.110.1.111-0485 | 16.8MB
+  - PA-138.186.142.4-0473 | 16.772MB
+  - 🇺🇸US-212.102.47.131-0371 | 16.768MB
+  - 🇺🇸US-156.146.38.168-0397 | 16.619MB
+  - 🇬🇧GB-172.99.190.206-5992 | 16.586MB
+  - AR-190.103.176.29-0476 | 16.574MB
+  - 🇺🇸US-38.75.136.49-0484 | 16.544MB
+  - 🇸🇬SG-68.183.227.45-0428 | 16.542MB
+  - 🇳🇱NL-109.201.152.181-0413 | 16.289MB
+  - 🇪🇸ES-5.188.181.201-0480 | 16.177MB
+  - 🇫🇷FR-51.15.27.48-0417 | 16.137MB
+  - CZ-195.181.160.6-0450 | 16.092MB
+  - AE-3.29.85.232-0483 | 15.919MB
+  - KE-62.12.116.66-0486 | 15.749MB
+  - 🇪🇸ES-5.188.181.201-0506 | 15.746MB
+  - 🇬🇧GB-212.102.53.198-0412 | 15.724MB
+  - 🇸🇬SG-128.199.172.224-0449 | 15.685MB
+  - 🇮🇳IN-159.65.149.72-0508 | 15.648MB
+  - 🇰🇷KR-43.200.1.13-0445 | 15.629MB
+  - 🇫🇷FR-51.15.15.82-0513 | 15.579MB
+  - 🇩🇪DE-80.92.204.106-5435 | 15.571MB
+  - RO-194.14.217.115-0472 | 15.554MB
+  - 🇩🇪DE-80.92.204.106-5464 | 15.516MB
+  - 🇪🇸ES-5.188.181.201-5615 | 15.436MB
+  - 🇩🇪DE-80.92.204.106-5468 | 15.426MB
+  - 🇫🇷FR-195.154.185.174-0451 | 15.383MB
+  - 🇪🇸ES-5.188.181.201-5758 | 15.319MB
+  - 🇵🇱PL-92.118.205.228-5744 | 15.318MB
+  - 🇪🇸ES-5.188.181.201-0488 | 15.254MB
+  - EE-147.45.60.33-6331 | 15.131MB
+  - 🇪🇸ES-5.188.181.201-0489 | 15.075MB
+  - 🇪🇸ES-5.188.181.201-0495 | 15.002MB
+  - 🇩🇪DE-80.92.204.106-0501 | 14.986MB
+  - IE-23.92.127.134-0536 | 14.873MB
+  - LT-45.87.175.199-0453 | 14.837MB
+  - 🇯🇵JP-107.148.6.121-0516 | 14.82MB
+  - 🇩🇪DE-57.129.24.141-5734 | 14.687MB
+  - 🇭🇰HK-141.98.234.93-5877 | 14.671MB
+  - 🇨🇦CA-142.4.216.225-5428 | 14.615MB
+  - 🇪🇸ES-5.188.181.201-5494 | 14.38MB
+  - 🇰🇷KR-43.202.1.19-6246 | 14.221MB
 - name: Tier 4 🗿
   type: url-test
   url: http://clients3.google.com/generate_204
   interval: 300
   tolerance: 100
   proxies:
-  - 🇵🇱PL-45.144.48.63-0438 | 1.966MB
-  - 🇵🇱PL-45.144.48.63-0452 | 1.948MB
-  - 🇨🇦CA-142.4.216.225-5428 | 1.856MB
-  - 🇸🇬SG-128.199.172.224-0449 | 1.856MB
-  - 🇸🇬SG-68.183.227.236-0431 | 1.813MB
-  - 🇺🇸US-38.75.136.49-0484 | 1.772MB
-  - 🇸🇬SG-68.183.235.122-0443 | 1.604MB
-  - 🇭🇰HK-141.98.234.93-5877 | 1.557MB
-  - 🇦🇺AU-172.105.172.209-8670 | 1.492MB
-  - LT-195.238.126.84-0448 | 1.368MB
-  - SE-94.228.165.178-5880 | 1.278MB
-  - MD-178.175.134.2-0456 | 1.251MB
-  - 🇸🇬SG-68.183.227.45-0428 | 1.242MB
-  - 🇸🇬SG-18.141.231.184-6271 | 1.241MB
-  - LT-45.87.175.181-0311 | 1.231MB
-  - 🇰🇷KR-144.24.88.133-0405 | 1.23MB
-  - 🇷🇺RU-45.151.62.54-5875 | 1.206MB
-  - LT-45.87.175.181-0303 | 1.201MB
-  - EE-147.45.60.33-6331 | 1.198MB
-  - 🇩🇪DE-150.241.95.63-1351 | 1.194MB
-  - 🇩🇪DE-150.241.95.63-1352 | 1.193MB
-  - 🇵🇱PL-77.83.246.74-5878 | 1.191MB
-  - LT-45.87.175.154-0304 | 1.19MB
-  - KE-62.12.116.66-0486 | 1.184MB
-  - 🇺🇸US-38.107.226.146-0470 | 1.184MB
-  - BH-15.184.95.91-1363 | 1.181MB
-  - 🇨🇦CA-142.4.216.225-5737 | 1.178MB
-  - KZ-213.156.137.67-0466 | 1.177MB
-  - AE-3.29.85.232-0483 | 1.176MB
-  - 🇬🇧GB-77.72.5.113-0423 | 1.175MB
-  - 🇮🇳IN-159.65.149.72-0508 | 1.162MB
-  - 🇭🇰HK-74.119.193.157-5958 | 1.162MB
-  - LT-45.87.175.192-5380 | 1.152MB
-  - 🇺🇸US-31.59.111.4-2272 | 1.151MB
-  - VN-103.163.218.2-0479 | 1.15MB
-  - 🇪🇸ES-5.188.181.201-0480 | 1.141MB
-  - 🇵🇱PL-92.118.205.228-5744 | 1.133MB
-  - 🇬🇧GB-141.98.101.179-0475 | 1.131MB
-  - IT-185.213.20.227-6404 | 1.122MB
-  - TR-45.89.52.66-5697 | 1.121MB
-  - PA-138.186.142.4-0473 | 1.117MB
-  - TR-45.89.52.66-5462 | 1.117MB
-  - 🇪🇸ES-5.188.181.201-5611 | 1.104MB
-  - 🇪🇸ES-5.188.181.201-5494 | 1.099MB
-  - AR-190.103.176.29-0476 | 1.096MB
-  - TR-45.89.52.66-5459 | 1.095MB
-  - 🇳🇱NL-89.23.103.125-5874 | 1.093MB
-  - TR-45.89.52.66-0493 | 1.091MB
-  - TR-45.89.52.66-5612 | 1.09MB
-  - TR-45.89.52.66-5881 | 1.09MB
-  - TR-45.89.52.66-5614 | 1.089MB
+  - 🇰🇷KR-52.79.52.119-0868 | 14.221MB
+  - 🇰🇷KR-43.203.122.162-0873 | 14.079MB
+  - 🇪🇸ES-5.188.181.201-5496 | 13.587MB
+  - 🇨🇦CA-142.4.216.225-5737 | 12.91MB
+  - 🇬🇧GB-212.102.53.81-0420 | 12.724MB
+  - 🇬🇧GB-185.5.38.111-5816 | 12.521MB
+  - 🇩🇰DK-192.36.27.94-0491 | 11.77MB
+  - 🇪🇸ES-5.188.181.201-5497 | 11.565MB
+  - IE-23.92.127.133-0507 | 11.494MB
+  - 🇺🇸US-23.157.40.103-6036 | 11.028MB
+  - 🇺🇸US-23.150.152.16-0511 | 10.421MB
+  - 🇩🇪DE-23.157.88.61-6307 | 9.727MB
+  - 🇺🇸US-67.220.95.102-0551 | 9.684MB
+  - 🇺🇸US-23.157.40.103-6018 | 9.435MB
+  - 🇺🇸US-23.157.40.87-6104 | 9.359MB
+  - LV-46.183.217.232-5716 | 9.321MB
+  - 🇺🇸US-69.50.93.86-6312 | 9.227MB
+  - 🇺🇸US-69.50.92.55-5932 | 9.182MB
+  - 🇺🇸US-23.157.40.87-0539 | 9.128MB
+  - 🇺🇸US-23.157.40.103-6031 | 8.764MB
+  - 🇺🇸US-23.157.40.103-6029 | 8.524MB
+  - 🇺🇸US-67.220.95.102-6319 | 7.656MB
+  - 🇬🇧GB-185.5.38.111-5814 | 7.312MB
+  - 🇺🇸US-67.220.95.102-0542 | 7.204MB
+  - 🇺🇸US-23.157.40.87-6140 | 7.065MB
+  - 🇺🇸US-23.150.152.16-6354 | 6.988MB
+  - BE-192.71.249.78-0502 | 6.143MB
+  - 🇺🇸US-23.157.40.87-6195 | 5.893MB
+  - 🇺🇸US-23.157.40.103-6014 | 5.549MB
+  - 🇺🇸US-38.75.136.108-5503 | 5.538MB
+  - 🇺🇸US-69.50.95.203-5952 | 5.087MB
+  - 🇺🇸US-67.220.95.102-6314 | 4.694MB
+  - 🇺🇸US-67.220.95.102-6384 | 4.428MB
+  - 🇺🇸US-23.157.40.120-6425 | 4.277MB
+  - 🇺🇸US-23.157.40.103-6022 | 4.023MB
+  - 🇺🇸US-23.157.40.87-6152 | 3.801MB
+  - 🇺🇸US-23.150.152.16-6401 | 3.588MB
+  - 🇺🇸US-69.50.95.218-6434 | 3.452MB
+  - 🇺🇸US-23.157.40.47-0517 | 3.367MB
+  - 🇩🇪DE-80.92.204.106-5749 | 3.296MB
+  - CH-23.166.88.198-6469 | 3.224MB
+  - 🇺🇸US-69.50.95.103-5944 | 3.214MB
+  - 🇺🇸US-69.50.95.103-5942 | 3.186MB
+  - 🇺🇸US-23.157.40.103-6130 | 3.161MB
+  - 🇺🇸US-23.157.40.120-6113 | 3.018MB
+  - 🇺🇸US-69.50.95.218-0558 | 2.875MB
+  - 🇺🇸US-23.150.152.56-6379 | 2.832MB
+  - 🇺🇸US-69.50.95.174-6327 | 2.789MB
+  - 🇫🇷FR-54.36.174.181-5652 | 2.69MB
+  - 🇺🇸US-69.50.95.180-6439 | 2.641MB
+  - 🇺🇸US-67.220.95.102-6485 | 2.512MB
 rules:
 - MATCH,Global ©️
